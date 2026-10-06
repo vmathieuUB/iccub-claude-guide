@@ -14,7 +14,7 @@ A practical guide for ICCUB members who have a Claude Pro account and want to us
 
     ---
 
-    One page per feature: prompting, files, Projects, Artifacts, Research, connectors, Claude Code.
+    One page per feature: prompting, files, Projects, Artifacts, Research, connectors, email, Chrome, Claude Code and VS Code.
 
 -   **[Examples](examples/index.md)**
 
@@ -32,5 +32,13 @@ A practical guide for ICCUB members who have a Claude Pro account and want to us
 
 ## Latest examples
 
-- [Share a local LLM over the network](examples/research/local-llm-remote-access.md)
-- [Run a local LLM on your laptop](examples/research/local-llm-laptop.md)
+- [Write a paper draft from a project folder](examples/research/paper-from-project-folder.md) (Research)
+- [Turn your slides into lecture notes, chapter by chapter](examples/teaching/lecture-notes-from-slides.md) (Teaching)
+- [An animated web page for a public event](examples/outreach/animated-web-page.md) (Outreach)
+- [Conference trip reimbursement from your email](examples/admin/conference-reimbursement.md) (Admin)
+
+[All examples](examples/index.md)
+
+## Share your experience
+
+Tried something with Claude that worked, or didn't? [Send it to us](contribute/index.md): a short write-up by email is enough.
