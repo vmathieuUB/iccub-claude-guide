@@ -1,0 +1,64 @@
+site_name: ICCUB Claude Guide
+site_description: How ICCUB members get the most out of their Claude Pro accounts
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.indexes
+    - navigation.top
+    - search.suggest
+    - content.code.copy
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      toggle: {icon: material/weather-night, name: Dark mode}
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      toggle: {icon: material/weather-sunny, name: Light mode}
+plugins:
+  - search
+  - tags
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.highlight
+  - attr_list
+  - md_in_html
+  - pymdownx.keys
+  - tables
+  - toc:
+      permalink: true
+nav:
+  - Home: index.md
+  - Getting started:
+      - getting-started/index.md
+      - What Claude Pro includes: getting-started/what-is-claude.md
+      - Install: getting-started/install.md
+      - Data and privacy: getting-started/data-and-privacy.md
+  - How to use Claude:
+      - using-claude/index.md
+      - Chat and prompting: using-claude/prompting.md
+      - Uploading files: using-claude/files.md
+      - Projects: using-claude/projects.md
+      - Artifacts: using-claude/artifacts.md
+      - Web search and Research: using-claude/research.md
+      - Connectors: using-claude/connectors.md
+      - Claude Code: using-claude/claude-code.md
+  - Examples:
+      - examples/index.md
+      - Research:
+          - examples/research/index.md
+          - Run a local LLM on your laptop: examples/research/local-llm-laptop.md
+          - Share a local LLM over the network: examples/research/local-llm-remote-access.md
+      - Teaching: examples/teaching/index.md
+      - Outreach: examples/outreach/index.md
+      - Admin: examples/admin/index.md
+  - Tips and pitfalls: tips/index.md
+  - Contribute:
+      - contribute/index.md
+      - Example template: contribute/example-template.md
+  - Tags: tags.md
