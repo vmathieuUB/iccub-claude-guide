@@ -30,6 +30,11 @@ In a chat, open **+** to switch individual connectors on or off. Leave on only t
 !!! warning
     Connecting your UB email or Drive gives Claude access to whatever is in there, including other people's data. Point it at specific files or folders, and disconnect services you no longer use (Settings → Connectors → **Disconnect**).
 
+## More
+
+- [Email, calendar and documents](email-calendar.md): Gmail, Google Calendar, Drive and Microsoft 365 in detail.
+- [Claude in Chrome](chrome.md): for websites that have no connector.
+
 ## Tips
 
 - Be specific about where to look: *"in the folder 'Teaching 2026'"* is faster and safer than *"in my Drive"*.

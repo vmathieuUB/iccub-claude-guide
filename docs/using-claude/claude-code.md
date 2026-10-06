@@ -7,7 +7,7 @@ Use it instead of the chat when the task is about **your own code**: a pipeline,
 ## Where to run it
 
 - **Terminal** (macOS, Linux, Windows): the full version. Instructions below.
-- **VS Code** and **JetBrains**: install the Claude Code extension from the extension marketplace. It shows changes as diffs in the editor.
+- **VS Code** and **JetBrains**: install the Claude Code extension. It shows changes as diffs in the editor. See [Claude in VS Code](vs-code.md).
 - **Desktop app** and **web** ([claude.ai/code](https://claude.ai/code)): no install. The web version works on a GitHub repository in the cloud, not on your laptop.
 
 ## Install (terminal)

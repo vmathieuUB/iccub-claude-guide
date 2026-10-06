@@ -47,16 +47,30 @@ nav:
       - Artifacts: using-claude/artifacts.md
       - Web search and Research: using-claude/research.md
       - Connectors: using-claude/connectors.md
+      - Email, calendar and documents: using-claude/email-calendar.md
+      - Claude in Chrome: using-claude/chrome.md
       - Claude Code: using-claude/claude-code.md
+      - Claude in VS Code: using-claude/vs-code.md
   - Examples:
       - examples/index.md
       - Research:
           - examples/research/index.md
+          - Write a paper from a project folder: examples/research/paper-from-project-folder.md
+          - Clean up an analysis pipeline in VS Code: examples/research/analysis-code-vscode.md
           - Run a local LLM on your laptop: examples/research/local-llm-laptop.md
           - Share a local LLM over the network: examples/research/local-llm-remote-access.md
-      - Teaching: examples/teaching/index.md
-      - Outreach: examples/outreach/index.md
-      - Admin: examples/admin/index.md
+      - Teaching:
+          - examples/teaching/index.md
+          - Lecture notes from slides: examples/teaching/lecture-notes-from-slides.md
+          - Exercise sheets with solutions: examples/teaching/exercise-sheets.md
+      - Outreach:
+          - examples/outreach/index.md
+          - Animated web page for an event: examples/outreach/animated-web-page.md
+          - Public talk from a paper: examples/outreach/public-talk.md
+      - Admin:
+          - examples/admin/index.md
+          - Conference reimbursement: examples/admin/conference-reimbursement.md
+          - Organise a seminar series: examples/admin/seminar-series.md
   - Tips and pitfalls: tips/index.md
   - Contribute:
       - contribute/index.md
