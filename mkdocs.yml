@@ -38,7 +38,6 @@ nav:
       - getting-started/index.md
       - Your first 30 minutes: getting-started/first-steps.md
       - What Claude Pro includes: getting-started/what-is-claude.md
-      - Install: getting-started/install.md
       - Data and privacy: getting-started/data-and-privacy.md
   - How to use Claude:
       - using-claude/index.md

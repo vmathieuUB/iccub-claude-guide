@@ -8,7 +8,7 @@ A practical guide for ICCUB members who have a Claude Pro account and want to us
 
     ---
 
-    Your first 30 minutes with a new account, what Pro includes, the apps, and what is safe to upload.
+    Your first 30 minutes with a new account, what Pro includes, and what is safe to upload.
 
 -   **[How to use Claude](using-claude/index.md)**
 
