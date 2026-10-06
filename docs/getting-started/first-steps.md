@@ -37,7 +37,7 @@ The web version is enough to start. If you want more:
 - **Mobile app** for iOS and Android, from your app store. Your chats sync across all of them.
 - **Claude Code**, for working on code in your terminal or VS Code, is covered in [Claude Code](../using-claude/claude-code.md).
 
-More detail in [Install](install.md).
+More detail in [What Claude Pro includes](what-is-claude.md).
 
 ## 5. Have a first conversation
 
