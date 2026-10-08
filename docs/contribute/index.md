@@ -4,7 +4,7 @@ Anyone at ICCUB can add an example or improve a page. Short is fine, and failure
 
 ## Send an example
 
-1. **Download the template**: [iccub-example-template.md](../assets/iccub-example-template.md.txt){: download="my-example.md" .md-button } or copy it from the [example template](example-template.md) page.
+1. **Download the template**: [iccub-example-template.md](../assets/example-template.txt){: download="my-example.md" .md-button } or copy it from the [example template](example-template.md) page.
 2. **Fill it in** with any text editor (VS Code, TextEdit, Notepad…). Replace the text in angle brackets. Ten to fifteen minutes is enough.
 3. **Email it** to **[vmathieu@ub.edu](mailto:vmathieu@ub.edu?subject=ICCUB%20Claude%20Guide%20example)** with the file attached. Add screenshots or other files if they help.
 

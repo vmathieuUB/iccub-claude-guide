@@ -2,6 +2,7 @@ site_name: ICCUB Claude Guide
 site_description: How ICCUB members get the most out of their Claude Pro accounts
 theme:
   name: material
+  language: en
   features:
     - navigation.tabs
     - navigation.sections
@@ -21,6 +22,57 @@ theme:
 plugins:
   - search
   - tags
+  - i18n:
+      docs_structure: suffix
+      fallback_to_default: true
+      reconfigure_material: true
+      reconfigure_search: true
+      languages:
+        - locale: en
+          default: true
+          name: English
+          build: true
+        - locale: ca
+          name: Català
+          build: true
+          site_name: Guia de Claude de l'ICCUB
+          site_description: Com poden treure el màxim profit els membres de l'ICCUB dels seus comptes de Claude Pro
+          nav_translations:
+            Home: Inici
+            Getting started: Primers passos
+            Your first 30 minutes: Els teus primers 30 minuts
+            What Claude Pro includes: Què inclou Claude Pro
+            Data and privacy: Dades i privadesa
+            How to use Claude: Com utilitzar Claude
+            Chat and prompting: Xat i prompts
+            Uploading files: Pujar fitxers
+            Projects: Projects
+            Artifacts: Artifacts
+            Web search and Research: Cerca web i Research
+            Connectors: Connectors
+            Email, calendar and documents: Correu, calendari i documents
+            Claude in Chrome: Claude in Chrome
+            Claude Code: Claude Code
+            Claude in VS Code: Claude a VS Code
+            Examples: Exemples
+            Research: Recerca
+            Write a conference proceeding: Escriure uns proceedings d'un congrés
+            Clean up an analysis pipeline in VS Code: Endreçar un pipeline d'anàlisi a VS Code
+            Run a local LLM on your laptop: Executar un LLM local al teu portàtil
+            Share a local LLM over the network: Compartir un LLM local per la xarxa
+            Teaching: Docència
+            Lecture notes from slides: Apunts a partir de diapositives
+            Exercise sheets with solutions: Fulls d'exercicis amb solucions
+            Outreach: Divulgació
+            Animated web page for an event: Pàgina web animada per a un esdeveniment
+            Public talk from a paper: Xerrada divulgativa a partir d'un article
+            Admin: Gestió
+            Conference reimbursement: Reemborsament d'un congrés
+            Organise a seminar series: Organitzar un cicle de seminaris
+            Tips and pitfalls: Consells i errors habituals
+            Contribute: Contribueix
+            Example template: Plantilla d'exemple
+            Tags: Etiquetes
 markdown_extensions:
   - admonition
   - pymdownx.details
