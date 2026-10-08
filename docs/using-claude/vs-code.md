@@ -35,7 +35,7 @@ VS Code + Claude is also a good way to work on **LaTeX papers, lecture notes and
 - *"Read my `% TODO` comments in `chapter3.tex` and address each one."*
 - *"Turn `notes.md` into a structured outline for section 2 of the paper."*
 
-See the worked examples: [Write a paper from a project folder](../examples/research/paper-from-project-folder.md) and [Lecture notes from slides](../examples/teaching/lecture-notes-from-slides.md).
+See the worked examples: [Write a conference proceeding](../examples/research/conference-proceeding.md) and [Lecture notes from slides](../examples/teaching/lecture-notes-from-slides.md).
 
 ## Tell Claude about your project
 

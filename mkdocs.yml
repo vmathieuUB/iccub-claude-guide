@@ -55,7 +55,7 @@ nav:
       - examples/index.md
       - Research:
           - examples/research/index.md
-          - Write a paper from a project folder: examples/research/paper-from-project-folder.md
+          - Write a conference proceeding: examples/research/conference-proceeding.md
           - Clean up an analysis pipeline in VS Code: examples/research/analysis-code-vscode.md
           - Run a local LLM on your laptop: examples/research/local-llm-laptop.md
           - Share a local LLM over the network: examples/research/local-llm-remote-access.md
