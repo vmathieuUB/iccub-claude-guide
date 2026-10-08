@@ -7,7 +7,7 @@ Short, concrete write-ups of tasks done with Claude, in four areas. Every exampl
 
 | Area | Examples |
 |---|---|
-| [Research](research/index.md) | Write a paper from a project folder · Clean up an analysis pipeline in VS Code · Local LLMs on your laptop and over the network |
+| [Research](research/index.md) | Write a conference proceeding · Clean up an analysis pipeline in VS Code · Local LLMs on your laptop and over the network |
 | [Teaching](teaching/index.md) | Lecture notes from slides · Exercise sheets with solutions |
 | [Outreach](outreach/index.md) | An animated web page for a public event · A public talk from a paper |
 | [Admin](admin/index.md) | Conference reimbursement from your email · Organise a seminar series |

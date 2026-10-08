@@ -32,7 +32,7 @@ A practical guide for ICCUB members who have a Claude Pro account and want to us
 
 ## Latest examples
 
-- [Write a paper draft from a project folder](examples/research/paper-from-project-folder.md) (Research)
+- [Write a conference proceeding](examples/research/conference-proceeding.md) (Research)
 - [Turn your slides into lecture notes, chapter by chapter](examples/teaching/lecture-notes-from-slides.md) (Teaching)
 - [An animated web page for a public event](examples/outreach/animated-web-page.md) (Outreach)
 - [Conference trip reimbursement from your email](examples/admin/conference-reimbursement.md) (Admin)
