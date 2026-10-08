@@ -1,92 +1,77 @@
 ---
 tags:
   - Teaching
-  - Claude Code
-  - VS Code
   - LaTeX
+  - Writing
 ---
 
 # Turn your slides into lecture notes, chapter by chapter
 
-!!! info "Illustrative example"
-    This example was written by the site editors to show the workflow. It is not yet a real ICCUB experience. If you try it, [send us your version](../../contribute/index.md) and we will replace it.
-
 | About this example | |
 | --- | --- |
-| **Author** | ICCUB Claude Guide editors |
-| **Date** | 2026-10-06 |
-| **Area** | Teaching (any course) |
-| **Tools used** | Claude Code in VS Code, LaTeX |
-| **Time saved** | Several weeks over a semester (estimate) |
+| **Author** | Vincent Mathieu |
+| **Date** | 2026-10-08 |
+| **Area** | Teaching (university course) |
+| **Tools used** | Claude with access to a local folder, LaTeX |
+| **Result** | Lecture notes in Catalan and Spanish, published on the UB Campus Virtual |
 
 ## Goal
 
-Students ask for written notes, but the course only has slides. Turn 12 lectures of slides into proper LaTeX lecture notes with text, worked examples and figures, while keeping full control of the content.
+Write proper lecture notes for my course from my lecture slides, in both languages the course is taught in (Catalan and Spanish), and publish them for students on the UB Campus Virtual.
 
 ## What I did
 
-### 1. Prepare the folder
+### 1. Put everything in one folder
 
-```text
-course-notes/
-├── CLAUDE.md
-├── slides/          ← lecture01.pdf … lecture12.pdf
-├── extra/           ← syllabus, past exams, your handwritten derivations
-└── notes/           ← empty: Claude will create the LaTeX here
-```
+I opened Claude, created a new folder, and put in it:
 
-`CLAUDE.md` says who the students are, the language, the notation, and the rules:
+- the slides of my lectures,
+- references: some books I had,
+- the *pla docent* (the official course teaching plan).
 
-```markdown
-# Lecture notes: Introduction to Cosmology (3rd year, Grau en Física)
-- Language: English. Level: students know mechanics, electromagnetism, basic GR is NOT assumed.
-- One chapter per lecture, in notes/chapters/chNN.tex, included from notes/main.tex.
-- Follow the order and content of the slides; don't add topics that aren't in the slides
-  unless I ask.
-- Each chapter: learning goals, text, at least one worked example, a short summary,
-  three exercises (no solutions in the main text).
-- Figures: redraw simple plots with TikZ/pgfplots; for complex ones, insert
-  \missingfigure{description} and I will provide them.
-- References: only textbooks listed in extra/syllabus.pdf.
-```
+The more context you give, the better and more refined the result.
 
 ### 2. Build the template first
 
-> *Create notes/main.tex as a book-style document with a title page, table of contents, a chapter per lecture (empty for now), a consistent theorem/example/exercise environment, and our notation macros. Compile it.*
+Before writing any content, we created a LaTeX template together, with the style I wanted: fonts, colours, layout, everything. I only moved on once I was happy with the template.
 
-Check the PDF and fix the layout now; every chapter will inherit it.
+It also works well to **give the structure yourself**: draft the LaTeX skeleton with the chapters and sections you want, and Claude fills it in.
 
-### 3. Go chapter by chapter
+### 3. Write chapter by chapter
 
-> *Write chapter 1 from slides/lecture01.pdf following CLAUDE.md. Compile and stop.*
+I then asked Claude to write the lecture notes chapter by chapter, based on my slides and following the *pla docent*.
 
-Read the PDF of the chapter. Then open `ch01.tex` and **review it by writing comments directly in the file**, where the problem is:
+### 4. Review by writing comments directly in the .tex file
+
+For each chapter, Claude wrote a first version. I opened the `.tex` file and wrote my own comments directly in it, where the change was needed. For example:
 
 ```latex
-% CLAUDE: add a worked example here: age of an Einstein–de Sitter universe with H0 = 70
-% CLAUDE: this figure doesn't look good, make the axes logarithmic and label both curves
-% CLAUDE: add a reference to Ryden ch. 5 for the derivation
-% CLAUDE: remove this paragraph, too advanced for 3rd year
+% Here I want an example.
+% Here I want a figure.
+% This figure is not correct.
 ```
 
-Then:
+Then I went back to the chat with Claude and said: *"I put comments in the file, go through them."*
 
-> *Address all `% CLAUDE:` comments in ch01.tex, remove them when done, compile, and summarise what you changed.*
+I repeated this for several iterations, until I was happy with the chapter, then moved on to the next one.
 
-Repeat until the chapter is right, then move to the next one. Later chapters go faster, because you can say *"same structure and level as chapter 1"*.
+### 5. One language first, then translate
 
-### 4. Final pass
+I worked on only one language. When a chapter was final in that language, I asked Claude to translate it into the other one (Catalan ↔ Spanish).
 
-> *Check notation consistency across all chapters, make sure every exercise is numbered and referenced, and build a list of all `\missingfigure` placeholders.*
+### 6. Publish
+
+The finished notes, in both languages, went on the course's page on the UB Campus Virtual.
 
 ## Result
 
-A full set of compiled lecture notes, consistent in notation and style, with worked examples and exercises, built at the pace of one chapter per week alongside the course.
+Complete lecture notes, in my style and following my slides and the *pla docent*, in both Catalan and Spanish, available to students on the Campus Virtual.
 
 ## What to watch for
 
-- **Physics errors**: check every derivation and worked example. Factors of 2 and sign conventions are where errors hide.
-- **Content creep**: without the "don't add topics" rule, notes grow beyond what you teach.
-- **Figures**: TikZ redraws are good for simple plots; check axes and labels. Don't copy figures from textbooks without permission.
-- **Commit after each chapter** so you can go back.
-- If you share the notes, say they were prepared with AI assistance.
+- **Template first.** Settling the style before writing saves reformatting every chapter later.
+- **Give structure and context.** A LaTeX skeleton, the slides, the books and the *pla docent* all made the drafts closer to what I wanted.
+- **Comments in the file work better than long chat messages.** Each comment sits exactly where the change is needed.
+- **Iterate per chapter.** Finish one chapter before starting the next.
+- **Finish one language before translating.** Otherwise every correction has to be made twice.
+- **Check the physics.** Read every derivation and example: you remain responsible for the content.
