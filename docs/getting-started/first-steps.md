@@ -35,7 +35,7 @@ The web version is enough to start. If you want more:
 
 - **Desktop app** for macOS and Windows, from [claude.ai/download](https://claude.ai/download).
 - **Mobile app** for iOS and Android, from your app store. Your chats sync across all of them.
-- **Claude Code**, for working on code in your terminal or VS Code, is covered in [Claude Code](../using-claude/claude-code.md).
+- **Claude Code**, for working on code from the desktop app (**Code** tab), VS Code or the terminal, is covered in [Claude Code](../using-claude/claude-code.md).
 
 More detail in [What Claude Pro includes](what-is-claude.md).
 
