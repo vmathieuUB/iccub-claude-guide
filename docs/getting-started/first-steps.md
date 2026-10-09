@@ -1,10 +1,10 @@
 # Your first 30 minutes
 
-You just got a Claude Pro account. Here is what to do before your first real task. Each step takes a few minutes.
+You just got a Claude account: your own Pro plan or a seat on your group's Team plan (see [How to get Claude](get-claude.md)). Here is what to do before your first real task. Each step takes a few minutes.
 
 ## 1. Sign in and check your plan
 
-Go to [claude.ai](https://claude.ai) and sign in with the email your account was created with. Open **Settings → Billing** (click your name, bottom left) and check that it says **Pro**. If it says Free, you are signed in with the wrong email.
+Go to [claude.ai](https://claude.ai) and sign in with the email your account was created with. Open **Settings → Billing** (click your name, bottom left) and check that it says **Pro** (on a Team seat, your group's name appears instead). If it says Free, you are signed in with the wrong email.
 
 ## 2. Check your privacy settings
 

@@ -40,6 +40,7 @@ plugins:
           nav_translations:
             Home: Inici
             Getting started: Primers passos
+            How to get Claude: Com aconseguir Claude
             Your first 30 minutes: Els teus primers 30 minuts
             What Claude Pro includes: Què inclou Claude Pro
             Data and privacy: Dades i privadesa
@@ -88,6 +89,7 @@ nav:
   - Home: index.md
   - Getting started:
       - getting-started/index.md
+      - How to get Claude: getting-started/get-claude.md
       - Your first 30 minutes: getting-started/first-steps.md
       - What Claude Pro includes: getting-started/what-is-claude.md
       - Data and privacy: getting-started/data-and-privacy.md
