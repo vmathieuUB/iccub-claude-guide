@@ -9,9 +9,9 @@ One account, the same chats everywhere:
 | Where | Good for |
 |---|---|
 | **Web**, at [claude.ai](https://claude.ai) | Everything. Nothing to install. |
-| **Desktop app** (macOS, Windows), from [claude.ai/download](https://claude.ai/download) | Same as web, in its own window, with access to local tools. |
+| **Desktop app** (macOS, Windows), from [claude.ai/download](https://claude.ai/download) | Same as web, in its own window, with access to local tools, plus the **Code** tab for [Claude Code](../using-claude/claude-code.md). |
 | **Mobile app** (iOS, Android) | Quick questions, voice mode, photos of a blackboard or a page. |
-| **Claude Code** (terminal, VS Code, JetBrains) | Working on your code and analysis scripts. See [Claude Code](../using-claude/claude-code.md). |
+| **Claude Code** (**Code** tab of the desktop app, VS Code, JetBrains, terminal) | Working on your code and analysis scripts. See [Claude Code](../using-claude/claude-code.md). |
 | **Claude in Chrome** and **Microsoft 365** integrations | Using Claude inside your browser and Office apps. |
 
 ## Models
