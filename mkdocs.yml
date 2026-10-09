@@ -1,5 +1,6 @@
 site_name: ICCUB Claude Guide
 site_description: How ICCUB members get the most out of their Claude Pro accounts
+site_url: https://vmathieuub.github.io/iccub-claude-guide/
 theme:
   name: material
   language: en
