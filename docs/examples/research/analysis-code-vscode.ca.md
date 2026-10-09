@@ -2,58 +2,49 @@
 tags:
   - Recerca
   - Claude Code
-  - VS Code
   - Programació
 ---
 
-# Endreçar i provar un pipeline d'anàlisi a VS Code
-
-!!! info "Exemple il·lustratiu"
-    Aquest exemple l'han escrit els editors del web per mostrar el flux de treball. Encara no és una experiència real de l'ICCUB. Si el proves, [envia'ns la teva versió](../../contribute/index.md) i el substituirem.
+# Accelerar el codi d'un article publicat
 
 | Sobre aquest exemple | |
 | --- | --- |
-| **Autor/a** | Editors de la guia de Claude de l'ICCUB |
-| **Data** | 2026-10-06 |
-| **Àrea** | Qualsevol treball computacional |
-| **Eines utilitzades** | Extensió de Claude Code a VS Code, Python, pytest, git |
-| **Temps estalviat** | Uns dos dies (estimació) |
+| **Autor/a** | Vincent Mathieu |
+| **Data** | 2026-10-09 |
+| **Àrea** | Física hadrònica (teoria) |
+| **Eines utilitzades** | Claude Code, Google Antigravity (Gemini) i un model local, cadascun amb accés a la carpeta del codi |
+| **Temps estalviat** | Revisió feta en una mitja hora; ara el codi és més de 10 vegades més ràpid |
+| **Article** | [High-energy η(′)π photoproduction and the nature of exotic waves](https://inspirehep.net/literature/3070423), G. Montaña, V. Mathieu et al., Phys. Lett. B 872 (2026) 140101 ([arXiv:2510.14549](https://arxiv.org/abs/2510.14549)) |
 
 ## Objectiu
 
-Un estudiant de doctorat se'n va i traspassa a un nou estudiant una anàlisi en Python de 3000 línies (un gran script més uns quants notebooks). Volem que sigui comprensible, que tingui tests i que sigui reproduïble abans del traspàs, sense canviar els resultats científics.
+El 2025 vam publicar un article amb la Gloria Montaña i altres col·legues sobre la producció d'ηπ a alta energia. El model té cinc variables, i calcular els observables volia dir integrar sobre quatre d'elles.
+
+Vaig escriure el codi de Monte Carlo jo mateix, força de pressa, en part mentre viatjava. Vaig decidir no fer servir **cap llibreria**: volia entendre cada pas, així que totes les rutines estaven escrites a mà, des de la integració de Monte Carlo fins al determinant d'una matriu 6×6 que serveix per comprovar els límits de la regió física. Funcionava, i es va fer servir per a l'article, però un càlcul complet trigava hores.
+
+Un any després, quan vaig començar a fer servir eines de programació amb IA, vaig voler saber si aquest codi es podia fer més ràpid.
 
 ## Què vaig fer
 
-1. **Vaig obrir la carpeta del repositori a VS Code** i em vaig assegurar que tot estava desat amb commit a git.
-
-2. **Vaig demanar un recorregut, sense canvis:**
-
-    > *Explica què fa aquest projecte, el flux de dades des dels fitxers en brut fins als gràfics finals i quines funcions són les més fràgils. No canviïs res.*
-
-3. **Primer vaig congelar els resultats actuals.** Abans de qualsevol refactorització:
-
-    > *Escriu un script `tests/make_reference.py` que executi tot el pipeline sobre `data/sample/` i desi cada array de sortida a `tests/reference/`. Després escriu un test de pytest que torni a executar el pipeline i comprovi que les sortides coincideixen amb la referència fins a 1e-10.*
-
-    El vaig executar un cop, vaig revisar a ull les sortides de referència i en vaig fer commit.
-
-4. **Vaig refactoritzar a petits passos amb `/plan`:**
-
-    > */plan Divideix analysis.py en mòduls (io, cleaning, fitting, plotting) sense canviar-ne el comportament. Proposa primer la divisió.*
-
-    Un cop acordat el pla: *"Fes només el pas 1 i després executa els tests."* Ho vaig repetir pas a pas, llegint cada diff.
-
-5. **Vaig afegir tests unitaris** per a les funcions principals: *"Escriu tests per a `fit_profile` que incloguin casos límit: entrada buida, NaN, un sol punt."* Dos tests van fallar i van revelar un error real en el tractament dels NaN, que vam corregir per separat i documentar.
-
-6. **Vaig escriure documentació**: un `README.md` amb instruccions d'instal·lació i execució, docstrings i un `CLAUDE.md` per a qui faci servir Claude amb el codi després.
+1. **Vaig donar a l'eina accés a la carpeta** amb el codi que havia produït els resultats publicats.
+2. **Vaig explicar el context**: l'article, i que aquest era el codi que s'hi havia fet servir.
+3. **Vaig demanar una revisió**, en essència: *"Aquest és el codi que es va fer servir per publicar aquest article. Revisa tots els fitxers i mira si el podem optimitzar."*
+4. **Vaig repetir l'exercici amb tres eines**: Google Antigravity (amb Gemini), Claude (Sonnet, a Claude Code) i un model local, per veure si arribaven a les mateixes conclusions.
 
 ## Resultat
 
-Els mateixos resultats numèrics (el test de regressió passa), cinc mòduls en lloc d'un sol script, 25 tests unitaris, un README i un error real trobat i corregit.
+La revisió va durar una mitja hora. Va trobar:
+
+- **Feina duplicada**: diversos llocs on es calculava la mateixa quantitat dues vegades, cadascun un factor 2.
+- **Rutines poc eficients**: la meva rutina feta a mà per al determinant no era eficient.
+
+Tot plegat va donar **una acceleració de més d'un factor 10**. Un any després de l'article, el mateix codi va molt, molt més ràpid.
+
+Les tres eines (Antigravity, Claude i el model local) van portar a la mateixa conclusió: el codi va ser molt més eficient després de la revisió amb IA.
 
 ## Què cal vigilar
 
-- **Congela els resultats abans de refactoritzar.** Sense el test de regressió, petits canvis de comportament (ordenació, precisió de coma flotant, arguments per defecte) passen desapercebuts.
-- **Petits passos.** "Refactoritza-ho tot" produeix un diff massa gran per revisar-lo.
-- **Els tests escrits per Claude també poden estar malament**: un test que comprova el comportament erroni només consolida l'error. Llegeix-los.
-- **No deixis que "arregli" la física** mentre refactoritza. Demana-li que faci una llista a part de la física sospitosa en lloc de canviar-la.
+- **Escriu-lo tu primer.** Crec que és bona idea començar programant cada funció tu mateix, sense llibreries, per entendre tant la física com el codi.
+- **Després optimitza amb IA.** Quan el codi funciona i està comprovat, i el necessites eficient per produir els resultats definitius, demana a una IA que l'optimitzi. Mantens la comprensió *i* tens un codi eficient.
+- **Comprova que els resultats no canvien.** Compara la sortida del codi optimitzat amb els resultats publicats abans de fer-lo servir.
+- **Qualsevol eina serveix.** Aquí una eina al núvol i un model local van trobar les mateixes millores; si el teu codi no pot sortir de la teva màquina, consulta [Executar un LLM local al teu portàtil](local-llm-laptop.md).

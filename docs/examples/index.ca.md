@@ -7,7 +7,7 @@ Descripcions breus i concretes de tasques fetes amb Claude, en quatre àmbits. C
 
 | Àmbit | Exemples |
 |---|---|
-| [Recerca](research/index.md) | Escriure uns proceedings d'un congrés · Endreçar un pipeline d'anàlisi a VS Code · LLM locals al teu portàtil i a través de la xarxa |
+| [Recerca](research/index.md) | Escriure uns proceedings d'un congrés · Accelerar el codi d'un article · LLM locals al teu portàtil i a través de la xarxa |
 | [Docència](teaching/index.md) | Apunts a partir de diapositives · Fulls d'exercicis amb solucions |
 | [Divulgació](outreach/index.md) | Una pàgina web animada per a un acte públic · Una xerrada divulgativa a partir d'un article |
 | [Gestió](admin/index.md) | Reemborsament d'un congrés a partir del teu correu · Organitzar un cicle de seminaris |

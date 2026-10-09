@@ -2,58 +2,49 @@
 tags:
   - Research
   - Claude Code
-  - VS Code
   - Coding
 ---
 
-# Clean up and test an analysis pipeline in VS Code
-
-!!! info "Illustrative example"
-    This example was written by the site editors to show the workflow. It is not yet a real ICCUB experience. If you try it, [send us your version](../../contribute/index.md) and we will replace it.
+# Speed up the code behind a published paper
 
 | About this example | |
 | --- | --- |
-| **Author** | ICCUB Claude Guide editors |
-| **Date** | 2026-10-06 |
-| **Area** | Any computational work |
-| **Tools used** | Claude Code extension in VS Code, Python, pytest, git |
-| **Time saved** | About two days (estimate) |
+| **Author** | Vincent Mathieu |
+| **Date** | 2026-10-09 |
+| **Area** | Hadron physics (theory) |
+| **Tools used** | Claude Code, Google Antigravity (Gemini) and a local model, each given access to the code folder |
+| **Time saved** | Review done in about half an hour; the code now runs more than 10 times faster |
+| **Paper** | [High-energy η(′)π photoproduction and the nature of exotic waves](https://inspirehep.net/literature/3070423), G. Montaña, V. Mathieu et al., Phys. Lett. B 872 (2026) 140101 ([arXiv:2510.14549](https://arxiv.org/abs/2510.14549)) |
 
 ## Goal
 
-A PhD student is leaving and handing over a 3000-line Python analysis (one big script plus notebooks) to a new student. We want it understandable, tested and reproducible before the handover, without changing the scientific results.
+In 2025 we published a paper with Gloria Montaña and colleagues on high-energy ηπ production. The model has five variables, and computing the observables meant integrating over four of them.
+
+I wrote the Monte Carlo code myself, fairly quickly, partly while travelling. I deliberately used **no libraries**: I wanted to understand every step, so every routine was written by hand, from the Monte Carlo integration to the determinant of a 6×6 matrix used to check the boundaries of the physical region. It worked, and it was used for the paper, but a full run took hours.
+
+A year later, when I started using AI coding tools, I wanted to know whether this code could be made faster.
 
 ## What I did
 
-1. **Opened the repository folder in VS Code** and made sure everything was committed in git.
-
-2. **Asked for a tour, no changes:**
-
-    > *Explain what this project does, the data flow from raw files to final plots, and which functions are the most fragile. Don't change anything.*
-
-3. **Froze the current results first.** Before any refactoring:
-
-    > *Write a script `tests/make_reference.py` that runs the full pipeline on `data/sample/` and saves every output array to `tests/reference/`. Then write a pytest test that reruns the pipeline and checks the outputs match the reference to 1e-10.*
-
-    Ran it once, checked the reference outputs by eye, committed.
-
-4. **Refactored in small steps with `/plan`:**
-
-    > */plan Split analysis.py into modules (io, cleaning, fitting, plotting) without changing behaviour. Propose the split first.*
-
-    After agreeing on the plan: *"Do step 1 only, then run the tests."* Repeated step by step, reading every diff.
-
-5. **Added unit tests** for the core functions: *"Write tests for `fit_profile` including edge cases: empty input, NaNs, a single point."* Two tests failed, revealing a real bug with NaN handling, which we fixed separately and documented.
-
-6. **Wrote documentation**: a `README.md` with install and run instructions, docstrings, and a `CLAUDE.md` for whoever uses Claude on it next.
+1. **Gave the tool access to the folder** with the code that produced the published results.
+2. **Explained the context**: the paper, and that this was the code used for it.
+3. **Asked for a review**, in substance: *"This is the code that was used to publish this paper. Look at all the files and check whether we can optimise it."*
+4. **Repeated the exercise with three tools**: Google Antigravity (with Gemini), Claude (Sonnet, in Claude Code) and a local model, to see whether they would reach the same conclusions.
 
 ## Result
 
-Same numerical results (regression test passing), five modules instead of one script, 25 unit tests, a README, and one genuine bug found and fixed.
+The review took about half an hour. It found:
+
+- **Duplicated work**: several places where the same quantity was computed twice, each worth a factor of 2.
+- **Inefficient routines**: my hand-written determinant routine was not efficient.
+
+Together these gave **a speed-up of more than a factor of 10**. A year after the paper, the same code runs much, much faster.
+
+All three tools (Antigravity, Claude and the local model) led to the same conclusion: the code became much more efficient after the AI review.
 
 ## What to watch for
 
-- **Freeze results before refactoring.** Without the regression test, small behaviour changes (sorting, float precision, default arguments) slip through.
-- **Small steps.** "Refactor everything" produces a diff too big to review.
-- **Tests written by Claude can be wrong too**: a test that checks the buggy behaviour just locks the bug in. Read them.
-- **Don't let it "fix" the physics** while refactoring. Ask it to list suspicious physics separately instead of changing it.
+- **Write it yourself first.** I think it is a good idea to start by coding every function yourself, without libraries, so that you understand both the physics and the code.
+- **Then optimise with AI.** Once the code works and has been checked, and you need it efficient to produce the real numbers, ask an AI to optimise it. You keep the understanding *and* get efficient code.
+- **Check the results are unchanged.** Compare the optimised code's output with the published numbers before using it.
+- **Any tool will do.** Here a cloud tool and a local model found the same improvements; if your code cannot leave your machine, see [Run a local LLM on your laptop](local-llm-laptop.md).

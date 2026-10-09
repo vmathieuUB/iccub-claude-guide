@@ -58,7 +58,7 @@ plugins:
             Examples: Exemples
             Research: Recerca
             Write a conference proceeding: Escriure uns proceedings d'un congrés
-            Clean up an analysis pipeline in VS Code: Endreçar un pipeline d'anàlisi a VS Code
+            Speed up the code behind a paper: Accelerar el codi d'un article
             Run a local LLM on your laptop: Executar un LLM local al teu portàtil
             Share a local LLM over the network: Compartir un LLM local per la xarxa
             Teaching: Docència
@@ -110,7 +110,7 @@ nav:
       - Research:
           - examples/research/index.md
           - Write a conference proceeding: examples/research/conference-proceeding.md
-          - Clean up an analysis pipeline in VS Code: examples/research/analysis-code-vscode.md
+          - Speed up the code behind a paper: examples/research/analysis-code-vscode.md
           - Run a local LLM on your laptop: examples/research/local-llm-laptop.md
           - Share a local LLM over the network: examples/research/local-llm-remote-access.md
       - Teaching:
