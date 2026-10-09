@@ -1,10 +1,10 @@
 # Els teus primers 30 minuts
 
-Acabes de rebre un compte de Claude Pro. Això és el que has de fer abans de la primera tasca de debò. Cada pas porta pocs minuts.
+Acabes de rebre un compte de Claude: el teu propi pla Pro o una plaça al pla Team del teu grup (consulta [Com aconseguir Claude](get-claude.md)). Això és el que has de fer abans de la primera tasca de debò. Cada pas porta pocs minuts.
 
 ## 1. Inicia la sessió i comprova el teu pla
 
-Ves a [claude.ai](https://claude.ai) i inicia la sessió amb el correu electrònic amb què es va crear el teu compte. Obre **Settings → Billing** (fes clic al teu nom, a baix a l'esquerra) i comprova que hi digui **Pro**. Si hi diu Free, has iniciat la sessió amb un correu equivocat.
+Ves a [claude.ai](https://claude.ai) i inicia la sessió amb el correu electrònic amb què es va crear el teu compte. Obre **Settings → Billing** (fes clic al teu nom, a baix a l'esquerra) i comprova que hi digui **Pro** (amb una plaça Team, hi apareix el nom del teu grup). Si hi diu Free, has iniciat la sessió amb un correu equivocat.
 
 ## 2. Revisa la configuració de privadesa
 
