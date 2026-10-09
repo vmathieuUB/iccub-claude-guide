@@ -1,6 +1,6 @@
 # Example template
 
-[Download the template](../assets/iccub-example-template.md.txt){: download="my-example.md" .md-button }
+[Download the template](../assets/example-template.txt){: download="my-example.md" .md-button }
 
 Or copy everything in the box below into a new file. Replace the text in angle brackets, then email the file to [vmathieu@ub.edu](mailto:vmathieu@ub.edu). See [Contribute](index.md).
 
