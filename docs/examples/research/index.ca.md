@@ -4,3 +4,4 @@
 - [Accelerar el codi d'un article publicat](analysis-code-vscode.md): codi de Monte Carlo escrit a mà revisat per Claude, Antigravity i un model local, ara més de 10 vegades més ràpid.
 - [Executar un LLM local al teu portàtil](local-llm-laptop.md): instal·la Ollama, tria un model que càpiga a la teva RAM i fes-lo servir des del terminal i des de VS Code.
 - [Compartir un LLM local a través de la xarxa](local-llm-remote-access.md): serveix models des d'un Mac a un altre a la mateixa xarxa, incloent-hi un agent de programació funcional a VS Code.
+- [Un resum setmanal d'arXiv](weekly-arxiv-digest.md): una tasca programada que cada dilluns al matí busca a INSPIRE els articles nous que citen la teva feina i els dels teus temes.

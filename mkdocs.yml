@@ -62,6 +62,7 @@ plugins:
             Speed up the code behind a paper: Accelerar el codi d'un article
             Run a local LLM on your laptop: Executar un LLM local al teu portàtil
             Share a local LLM over the network: Compartir un LLM local per la xarxa
+            Weekly arXiv digest: Resum setmanal d'arXiv
             Teaching: Docència
             Lecture notes from slides: Apunts a partir de diapositives
             Exercise sheets with solutions: Fulls d'exercicis amb solucions
@@ -114,6 +115,7 @@ nav:
           - Speed up the code behind a paper: examples/research/analysis-code-vscode.md
           - Run a local LLM on your laptop: examples/research/local-llm-laptop.md
           - Share a local LLM over the network: examples/research/local-llm-remote-access.md
+          - Weekly arXiv digest: examples/research/weekly-arxiv-digest.md
       - Teaching:
           - examples/teaching/index.md
           - Lecture notes from slides: examples/teaching/lecture-notes-from-slides.md
