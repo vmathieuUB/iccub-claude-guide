@@ -35,7 +35,7 @@ Per començar, n'hi ha prou amb la versió web. Si en vols més:
 
 - **Aplicació d'escriptori** per a macOS i Windows, a [claude.ai/download](https://claude.ai/download).
 - **Aplicació mòbil** per a iOS i Android, a la teva botiga d'aplicacions. Les converses se sincronitzen entre totes.
-- **Claude Code**, per treballar amb codi al terminal o a VS Code, s'explica a [Claude Code](../using-claude/claude-code.md).
+- **Claude Code**, per treballar amb codi des de l'aplicació d'escriptori (pestanya **Code**), VS Code o el terminal, s'explica a [Claude Code](../using-claude/claude-code.md).
 
 Més detalls a [Què inclou Claude Pro](what-is-claude.md).
 

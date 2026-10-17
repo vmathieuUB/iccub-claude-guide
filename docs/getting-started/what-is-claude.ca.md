@@ -9,9 +9,9 @@ Un sol compte, les mateixes converses a tot arreu:
 | On | Útil per a |
 |---|---|
 | **Web**, a [claude.ai](https://claude.ai) | Tot. No cal instal·lar res. |
-| **Aplicació d'escriptori** (macOS, Windows), a [claude.ai/download](https://claude.ai/download) | El mateix que la web, en una finestra pròpia, amb accés a eines locals. |
+| **Aplicació d'escriptori** (macOS, Windows), a [claude.ai/download](https://claude.ai/download) | El mateix que la web, en una finestra pròpia, amb accés a eines locals, i a més la pestanya **Code** per a [Claude Code](../using-claude/claude-code.md). |
 | **Aplicació mòbil** (iOS, Android) | Preguntes ràpides, mode de veu, fotos d'una pissarra o d'una pàgina. |
-| **Claude Code** (terminal, VS Code, JetBrains) | Treballar amb el teu codi i els teus scripts d'anàlisi. Consulta [Claude Code](../using-claude/claude-code.md). |
+| **Claude Code** (pestanya **Code** de l'aplicació d'escriptori, VS Code, JetBrains, terminal) | Treballar amb el teu codi i els teus scripts d'anàlisi. Consulta [Claude Code](../using-claude/claude-code.md). |
 | Integracions de **Claude in Chrome** i **Microsoft 365** | Fer servir Claude dins del navegador i de les aplicacions d'Office. |
 
 ## Models
