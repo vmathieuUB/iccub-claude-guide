@@ -16,7 +16,7 @@ Claude sap física i Python, però no et coneix a tu, ni el teu projecte, ni el 
 | *Arregla el meu codi.* | *Aquesta funció hauria de retornar la distància de lluminositat en Mpc per a una cosmologia ΛCDM plana, però dona valors un 10% massa alts a z = 1. Troba l'error.* (i després enganxa el codi) |
 | *Escriu un correu als estudiants.* | *Escriu un correu breu i amable en català als meus estudiants de Física Quàntica per dir-los que l'examen passa del 12 al 19 de gener, a la mateixa aula.* |
 
-Les preferències personals que defineixis a **Settings → Profile** s'afegeixen a cada xat, de manera que no cal que repeteixis qui ets cada vegada (consulta [Els teus primers 30 minuts](../getting-started/first-steps.md)).
+Les instruccions que defineixis a **Settings → Your Claude** s'afegeixen a cada xat, de manera que no cal que repeteixis qui ets cada vegada (consulta [Els teus primers 30 minuts](../getting-started/first-steps.md)).
 
 ## Itera, no tornis a començar
 
@@ -38,8 +38,10 @@ Sovint Claude detecta els seus propis errors quan l'hi demanes. No els detectar�
 
 ## Trucs útils
 
-- **Extended thinking** (menú de models sota el quadre de missatge): activa'l per a derivacions, depuració de codi i qualsevol cosa en què una resposta acurada importi més que una de ràpida.
-- **Edita el teu missatge**: passa el ratolí per sobre d'un missatge que hagis enviat i fes clic al llapis per canviar-lo i obtenir una resposta nova, en lloc d'afegir-hi una correcció.
+- **Effort** (menú de models sota el quadre de missatge; *Extended thinking* a les versions antigues): puja'l per a derivacions, depuració de codi i qualsevol cosa en què una resposta acurada importi més que una de ràpida.
+- **Edita el teu missatge**: passa el ratolí per sobre d'un missatge que hagis enviat i fes clic al llapis per canviar-lo i obtenir una resposta nova, en lloc d'afegir-hi una correcció. Això crea una branca nova; la resposta original es conserva.
+- **Edita una part d'un esborrany**: quan Claude escriu un esborrany (un document, un correu, una secció), selecciona el fragment que vols canviar i demana-hi el canvi. Claude només reescriu aquella part.
+- **Encarrega la tasca sencera**: per a feines més grans (un informe, una presentació, una taula a partir de diversos articles), digues què vols al final i deixa que Claude la faci. Consulta [Tasques llargues i programades](tasks.md).
 - **Torna-ho a provar**: el botó de reintentar que hi ha sota una resposta et dona una versió diferent.
 - **Demana-li primer que et faci preguntes**: *"Abans de començar, pregunta'm tot el que necessitis saber."* és útil per a tasques més grans, com l'esquema d'una assignatura o una secció d'una proposta.
 - **Llengua**: Claude funciona bé en anglès, castellà i català. Pregunta en una llengua i demana la resposta en una altra si et cal.

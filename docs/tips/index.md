@@ -40,7 +40,8 @@ Claude can describe your file or code with great confidence and be wrong, especi
 ## Data, privacy and safety
 
 - Don't upload referee reports, proposals you are evaluating, student data with names, or passwords. See [Data and privacy](../getting-started/data-and-privacy.md).
-- With [connectors](../using-claude/connectors.md) and [Claude in Chrome](../using-claude/chrome.md), Claude acts as you. Ask for **drafts**, and approve actions yourself.
+- With [connectors](../using-claude/connectors.md), [Claude in Chrome](../using-claude/chrome.md) and [longer tasks](../using-claude/tasks.md), Claude acts as you. Ask for **drafts**, use the **Manual** permission setting for anything sensitive, and approve actions yourself.
+- **Memory** carries context from one chat to the next. Turn it off for confidential work (see [Data and privacy](../getting-started/data-and-privacy.md#memory)).
 - Text in emails, web pages or documents can contain instructions aimed at AI ("prompt injection"). Don't let Claude act on instructions it found inside content.
 
 ## Acknowledging AI use
@@ -52,7 +53,8 @@ Claude can describe your file or code with great confidence and be wrong, especi
 
 ## Usage limits
 
-- Long chats, large files, Opus and extended thinking use your allowance faster.
+- Long chats, large files, long tasks, Opus and a high effort setting use your allowance faster.
+- **Fable is not included in Pro**: it is paid with usage credits. Check the model picker before a long session.
 - Put files you reuse in a [Project](../using-claude/projects.md) instead of re-uploading them.
 - If you hit the limit, the reset time is shown. See [What Claude Pro includes](../getting-started/what-is-claude.md#usage-limits).
 
@@ -60,7 +62,9 @@ Claude can describe your file or code with great confidence and be wrong, especi
 
 | Surprise | Why | What to do |
 |---|---|---|
-| Claude doesn't know about a recent paper or software version | Its knowledge stops at a training cut-off | Turn on web search, or upload the paper |
+| Claude doesn't know about a recent paper or software version | Its knowledge stops at a training cut-off | Ask it to search the web, or upload the paper |
+| Claude brings up something from another chat | [Memory](../getting-started/data-and-privacy.md#memory) is on | Edit or delete that memory topic, or turn memory off for the chat |
+| The menus don't match this guide | Anthropic is rolling out a new layout gradually | Look for the same name nearby; the guide gives both names where they differ |
 | It forgot something from the start of a long chat | Long chats are summarised or drop detail | Start a new chat with a short summary of what matters |
 | It agrees with everything you say | It tends to accommodate the user | Ask it to argue against your idea, or to find the weakest point |
 | The same question gives different answers | Answers are not deterministic | Ask for reasoning, compare, and check |

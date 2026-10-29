@@ -25,7 +25,7 @@ Claude treballa sobre la **carpeta que obres** a VS Code. Obre la carpeta del te
 | Que Claude canviï codi | Descriu el canvi. Claude mostra cada edició com un **diff**; accepta-la o rebutja-la. |
 | Planificar abans de canviar res | Escriu `/plan` seguit de la tasca. Claude proposa un pla que pots editar abans que toqui cap fitxer. |
 | Treballar en diverses coses alhora | Obre diverses converses en pestanyes separades. |
-| Pensar més a fons | Activa l'**extended thinking** des del menú `/` per a errors complicats i derivacions. |
+| Pensar més a fons | Puja el nivell d'**effort** (des del menú `/`) per a errors complicats i derivacions. |
 
 ## No només codi
 
@@ -45,7 +45,7 @@ Posa un fitxer `CLAUDE.md` a l'arrel de la carpeta: què és el projecte, com s'
 
 - **Fes servir git** (VS Code l'inclou de sèrie, al panell Source Control). Fes un commit abans d'un canvi gran perquè el puguis desfer.
 - **Llegeix els diffs** abans d'acceptar-los. Claude es pot equivocar amb tota la seguretat del món.
-- **Mode de permisos**: per defecte, Claude pot editar i executar coses preguntant menys. Mentre n'aprens, canvia a un mode que pregunti abans de cada canvi (mira el selector de mode al panell, o `Shift+Tab` a la versió de terminal).
+- **Mode de permisos**: ara Claude comença en **Auto**, on un classificador de seguretat revisa la majoria d'accions en lloc de preguntar-te. Mentre n'aprens, fes clic a l'indicador de mode a la part inferior del quadre de text i tria **Manual**, que pregunta abans de cada canvi.
 - No obris carpetes que continguin secrets o dades que no tens permís per compartir. Consulta [Dades i privadesa](../getting-started/data-and-privacy.md).
 
 ## Extensió o terminal?

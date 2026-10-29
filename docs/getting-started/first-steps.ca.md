@@ -8,17 +8,14 @@ Ves a [claude.ai](https://claude.ai) i inicia la sessió amb el correu electròn
 
 ## 2. Revisa la configuració de privadesa
 
-Obre **Settings → Privacy**. L'opció **Help improve Claude** determina si les teves converses es poden fer servir per entrenar models futurs.
+Obre **Settings → Privacy**. L'opció de **millora del model** (amb l'etiqueta **Help Improve our AI models**) determina si les teves converses es poden fer servir per entrenar models futurs.
 
 !!! warning "Recomanat per a l'ICCUB"
-    Desactiva **Help improve Claude** si hi parlaràs de resultats no publicats, dades de col·laboracions, informes de revisió (referee reports) o treballs d'estudiants. Llegeix [Dades i privadesa](data-and-privacy.md) abans de pujar res de sensible.
+    Desactiva la millora del model si hi parlaràs de resultats no publicats, dades de col·laboracions, informes de revisió (referee reports) o treballs d'estudiants. Llegeix [Dades i privadesa](data-and-privacy.md) abans de pujar res de sensible.
 
 ## 3. Explica a Claude qui ets
 
-Obre **Settings → Profile** i omple:
-
-- **What best describes your work**: per exemple *Research* o *Education*.
-- **Personal preferences**: instruccions breus que Claude segueix en totes les converses. Per exemple:
+Obre **Settings → Your Claude** i omple **Instructions** (a la disposició antiga: **Settings → Account → Instructions for Claude**). Són instruccions breus que Claude segueix en totes les converses. Per exemple:
 
 ```text
 Sóc astrofísic/a a l'Institut de Ciències del Cosmos (ICCUB),
@@ -27,7 +24,7 @@ Respon de manera concisa, fes servir unitats SI o cgs segons convingui, i digues
 clarament quan no n'estiguis segur o quan calgui comprovar una referència.
 ```
 
-Ho pots canviar en qualsevol moment.
+Ho pots canviar en qualsevol moment. Al mateix lloc pots veure què ha desat Claude sobre tu a la seva **memòria** (consulta [Dades i privadesa](data-and-privacy.md#memory)).
 
 ## 4. Instal·la les aplicacions (opcional)
 
@@ -36,6 +33,7 @@ Per començar, n'hi ha prou amb la versió web. Si en vols més:
 - **Aplicació d'escriptori** per a macOS i Windows, a [claude.ai/download](https://claude.ai/download).
 - **Aplicació mòbil** per a iOS i Android, a la teva botiga d'aplicacions. Les converses se sincronitzen entre totes.
 - **Claude Code**, per treballar amb codi al terminal o a VS Code, s'explica a [Claude Code](../using-claude/claude-code.md).
+- **Claude in Chrome** i els complements de **Microsoft 365** (Excel, Word, PowerPoint) porten Claude al teu navegador i a les aplicacions d'Office.
 
 Més detalls a [Què inclou Claude Pro](what-is-claude.md).
 
@@ -54,14 +52,15 @@ Si la primera resposta no és correcta, respon i digues què cal canviar. Iterar
 
 | Control | On | Què fa |
 |---|---|---|
-| Selector de model | A sota del quadre de missatge | Tria un model. El predeterminat va bé per a la major part de la feina; el model més gran és més lent però raona millor en problemes difícils. |
-| Extended thinking | Al mateix menú | Claude pensa més estona abans de respondre. Útil per a deduccions i codi complicat. |
-| Botó **+** | A l'esquerra del quadre de missatge | Puja fitxers, activa la cerca web, connecta eines. |
+| Selector de model | A sota del quadre de missatge | Tria un model. Sonnet va bé per a la major part de la feina; Opus és més lent però raona millor en problemes difícils. Fable es paga a part a Pro (consulta [Què inclou Claude Pro](what-is-claude.md#models)). |
+| Effort | Al mateix menú | Quanta estona pensa Claude abans de respondre (versions antigues: *Extended thinking*). Puja'l per a deduccions i codi complicat. |
+| Botó **+** | A l'esquerra del quadre de missatge | Puja fitxers, comença un informe de **Research**, activa o desactiva connectors i la memòria per a aquest xat. |
+| Control de permisos | Al quadre de missatge | **Auto** deixa que Claude faci una tasca sense preguntar a cada pas; **Manual** fa que pregunti abans. Consulta [Tasques llargues](../using-claude/tasks.md). |
 | Projects | Barra lateral esquerra | Mantén junts els fitxers i les instruccions d'una assignatura o d'un article. Consulta [Projects](../using-claude/projects.md). |
 
 ## 7. Coneix els límits d'ús
 
-Pro té un ús generós però limitat. Els xats llargs, els fitxers grans i el model més gran consumeixen la teva quota més de pressa. Si arribes al límit, Claude t'indica quan es restableix (normalment en poques hores). Començar un xat nou per a cada tema nou, en lloc de continuar-ne un de molt llarg, fa que la quota duri més.
+Pro té un ús generós però limitat. Els xats llargs, els fitxers grans, les tasques llargues i Opus consumeixen la teva quota més de pressa. Si arribes al límit, Claude t'indica quan es restableix (normalment en poques hores); **Settings → Usage** mostra com vas. Deixa els **usage credits** desactivats tret que vulguis pagar més enllà de la subscripció. Començar un xat nou per a cada tema nou, en lloc de continuar-ne un de molt llarg, fa que la quota duri més.
 
 ## 8. Mantén el sentit crític
 

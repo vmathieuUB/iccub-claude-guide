@@ -6,8 +6,8 @@ By default Claude answers from what it learned in training, which stops at a cut
 
 Claude searches the web during the chat and cites the pages it used.
 
-- Turn it on with **+** → **Web search** (or in the tools menu next to the message box).
-- Claude decides when to search, but you can ask: *"Search the web for…"*.
+- In the current version there is no switch: Claude searches when it helps. You can also ask: *"Search the web for…"*.
+- In the older layout, turn it on with **+** → **Web search**.
 
 Good for: recent news, deadlines and calls, software documentation, checking that a paper or dataset exists, finding the current version of a package.
 
@@ -15,7 +15,7 @@ Good for: recent news, deadlines and calls, software documentation, checking tha
 
 Research is a longer investigation. Claude runs many searches, follows leads, and writes a structured report with citations. It usually takes a few minutes.
 
-- Turn it on with **+** → **Research**. Web search must be on too.
+- Start it with **+** → **Research**, or type `/deep-research` followed by your question.
 - Write a clear question, with scope: *"What X-ray telescopes are planned to launch between 2027 and 2035, what are their energy ranges and effective areas, and which are relevant for galaxy cluster studies?"*
 - Research uses more of your allowance than a normal chat. Use it for questions where a report saves you an afternoon.
 

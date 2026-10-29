@@ -56,6 +56,8 @@ plugins:
             Claude in Chrome: Claude in Chrome
             Claude Code: Claude Code
             Claude in VS Code: Claude a VS Code
+            Longer tasks and scheduling: Tasques llargues i programades
+            Claude Science: Claude Science
             Examples: Exemples
             Research: Recerca
             Write a conference proceeding: Escriure uns proceedings d'un congrés
@@ -101,12 +103,14 @@ nav:
       - Uploading files: using-claude/files.md
       - Projects: using-claude/projects.md
       - Artifacts: using-claude/artifacts.md
+      - Longer tasks and scheduling: using-claude/tasks.md
       - Web search and Research: using-claude/research.md
       - Connectors: using-claude/connectors.md
       - Email, calendar and documents: using-claude/email-calendar.md
       - Claude in Chrome: using-claude/chrome.md
       - Claude Code: using-claude/claude-code.md
       - Claude in VS Code: using-claude/vs-code.md
+      - Claude Science: using-claude/science.md
   - Examples:
       - examples/index.md
       - Research:

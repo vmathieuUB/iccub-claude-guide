@@ -14,7 +14,7 @@ Una guia pràctica per als membres de l'ICCUB que tenen un compte de Claude Pro 
 
     ---
 
-    Una pàgina per funcionalitat: prompts, fitxers, Projects, Artifacts, Research, connectors, correu electrònic, Chrome, Claude Code i VS Code.
+    Una pàgina per funcionalitat: prompts, fitxers, Projects, Artifacts (documents, diapositives, dissenys), tasques llargues, Research, connectors, correu electrònic, Chrome, Claude Code, VS Code i Claude Science.
 
 -   **[Exemples](examples/index.md)**
 

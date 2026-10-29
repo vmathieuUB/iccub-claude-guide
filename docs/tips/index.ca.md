@@ -40,7 +40,8 @@ Claude pot descriure el teu fitxer o el teu codi amb molta seguretat i equivocar
 ## Dades, privadesa i seguretat
 
 - No pugis informes de revisió, propostes que estiguis avaluant, dades d'estudiants amb noms ni contrasenyes. Consulta [Dades i privadesa](../getting-started/data-and-privacy.md).
-- Amb els [connectors](../using-claude/connectors.md) i [Claude in Chrome](../using-claude/chrome.md), Claude actua en nom teu. Demana-li **esborranys** i aprova tu mateix les accions.
+- Amb els [connectors](../using-claude/connectors.md), [Claude in Chrome](../using-claude/chrome.md) i les [tasques llargues](../using-claude/tasks.md), Claude actua en nom teu. Demana-li **esborranys**, fes servir l'opció de permisos **Manual** per a qualsevol cosa delicada i aprova tu mateix les accions.
+- La **memòria** porta context d'un xat a l'altre. Desactiva-la per a feina confidencial (consulta [Dades i privadesa](../getting-started/data-and-privacy.md#memory)).
 - El text de correus, pàgines web o documents pot contenir instruccions adreçades a la IA ("prompt injection"). No deixis que Claude actuï segons instruccions que ha trobat dins d'un contingut.
 
 ## Declarar l'ús de la IA
@@ -52,7 +53,8 @@ Claude pot descriure el teu fitxer o el teu codi amb molta seguretat i equivocar
 
 ## Límits d'ús
 
-- Els xats llargs, els fitxers grans, Opus i l'extended thinking consumeixen la teva quota més de pressa.
+- Els xats llargs, els fitxers grans, les tasques llargues, Opus i un valor alt d'Effort consumeixen la teva quota més de pressa.
+- **Fable no està inclòs a Pro**: es paga amb usage credits. Comprova el selector de model abans d'una sessió llarga.
 - Posa els fitxers que reutilitzes en un [Project](../using-claude/projects.md) en lloc de tornar-los a pujar.
 - Si arribes al límit, es mostra l'hora en què es restableix. Consulta [Què inclou Claude Pro](../getting-started/what-is-claude.md#usage-limits).
 
@@ -60,7 +62,9 @@ Claude pot descriure el teu fitxer o el teu codi amb molta seguretat i equivocar
 
 | Sorpresa | Per què | Què cal fer |
 |---|---|---|
-| Claude no coneix un article recent o una versió recent d'un programari | El seu coneixement s'atura en una data de tall de l'entrenament | Activa la cerca web o puja l'article |
+| Claude no coneix un article recent o una versió recent d'un programari | El seu coneixement s'atura en una data de tall de l'entrenament | Demana-li que cerqui al web, o puja l'article |
+| Claude treu alguna cosa d'un altre xat | La [memòria](../getting-started/data-and-privacy.md#memory) està activada | Edita o esborra aquell tema de la memòria, o desactiva la memòria per a aquell xat |
+| Els menús no coincideixen amb aquesta guia | Anthropic està desplegant una disposició nova de manera gradual | Busca el mateix nom a prop; la guia dona tots dos noms quan són diferents |
 | Ha oblidat alguna cosa del començament d'un xat llarg | Els xats llargs es resumeixen o perden detalls | Comença un xat nou amb un breu resum del que és important |
 | Està d'acord amb tot el que dius | Tendeix a complaure l'usuari | Demana-li que argumenti en contra de la teva idea o que en trobi el punt més feble |
 | La mateixa pregunta dona respostes diferents | Les respostes no són deterministes | Demana el raonament, compara i comprova |

@@ -14,7 +14,7 @@ A practical guide for ICCUB members who have a Claude Pro account and want to us
 
     ---
 
-    One page per feature: prompting, files, Projects, Artifacts, Research, connectors, email, Chrome, Claude Code and VS Code.
+    One page per feature: prompting, files, Projects, Artifacts (docs, slides, designs), longer tasks, Research, connectors, email, Chrome, Claude Code, VS Code and Claude Science.
 
 -   **[Examples](examples/index.md)**
 
