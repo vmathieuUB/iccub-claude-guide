@@ -13,7 +13,7 @@ Sense connectors, hauries de descarregar i pujar cada fitxer tu mateix.
 
 ## Connecta un servei
 
-1. Obre **Settings → Connectors** (també hi pots accedir des de **+** en un xat).
+1. Obre **Customize → Connectors** (a la barra lateral esquerra, o a [claude.ai/customize/connectors](https://claude.ai/customize/connectors)). També pots fer clic a **+** en un xat i passar el ratolí per sobre de **Connectors**.
 2. Busca el servei i fes clic a **Connect**.
 3. Inicia la sessió en aquest servei i aprova l'accés que et demana.
 
@@ -25,14 +25,16 @@ En un xat, obre **+** per activar o desactivar connectors concrets. Deixa activa
 
 - Claude pot accedir a tot allò a què pot accedir **el teu compte** en aquell servei, però només llegeix el que és rellevant per a la teva petició.
 - El que llegeix passa a formar part d'aquell xat, amb les mateixes normes que un fitxer que hagis pujat. Consulta [Dades i privadesa](../getting-started/data-and-privacy.md).
-- Alguns connectors també poden **actuar**: crear un esdeveniment al calendari, redactar un esborrany de correu. Claude et demana confirmació abans de fer-ho. Llegeix la confirmació abans d'aprovar-la.
+- Molts connectors també poden **actuar**: crear un esdeveniment al calendari, redactar o enviar un correu, editar un Google Doc o un full de càlcul. Claude et demana confirmació abans d'enviar, compartir o esborrar. Llegeix la confirmació abans d'aprovar-la.
+- Els connectors també funcionen mentre Claude fa una [tasca llarga](tasks.md) o programada, de manera que una tasca programada pot llegir el teu correu cada dilluns.
 
 !!! warning
-    Connectar el teu correu o el teu Drive de la UB dona a Claude accés a tot el que hi ha, incloses dades d'altres persones. Indica-li fitxers o carpetes concrets, i desconnecta els serveis que ja no facis servir (Settings → Connectors → **Disconnect**).
+    Connectar el teu correu o el teu Drive de la UB dona a Claude accés a tot el que hi ha, incloses dades d'altres persones. Indica-li fitxers o carpetes concrets, i desconnecta els serveis que ja no facis servir (Customize → Connectors → **Disconnect**).
 
 ## Més informació
 
-- [Correu electrònic, calendari i documents](email-calendar.md): Gmail, Google Calendar, Drive i Microsoft 365 en detall.
+- [Correu electrònic, calendari i documents](email-calendar.md): Gmail, Google Calendar, Drive, Google Docs i Sheets, i Microsoft 365 en detall.
+- Els **plugins** agrupen connectors amb skills ja preparades per a un tipus de feina; els trobaràs a **Customize**. Consulta [Skills](tasks.md#skills).
 - [Claude in Chrome](chrome.md): per a llocs web que no tenen connector.
 
 ## Consells

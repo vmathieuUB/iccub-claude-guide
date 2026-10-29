@@ -12,10 +12,10 @@ Pro gives you as many Projects as you want. Large Projects are handled automatic
 
 ## Create one
 
-1. Click **Projects** in the left sidebar, then **New project**.
+1. Click **Projects** in the left sidebar, then **+ New project**.
 2. Give it a name and, optionally, a description.
 3. Add files under **Project knowledge**: PDFs, text, code, notes.
-4. Write **Project instructions** (see below).
+4. Click **Set project instructions** and write them (see below).
 5. Start a chat inside the Project.
 
 ## Write good instructions
@@ -40,6 +40,12 @@ Grau en Física, UB). Students know undergraduate physics and basic Python.
 | A grant proposal | The call text, evaluation criteria, your CV, previous proposals |
 | Your group's code | README, a description of the pipeline, coding conventions |
 | Outreach | Your target audience, past talks, the venue's format |
+
+## Project memory
+
+Each Project has its own [memory](../getting-started/data-and-privacy.md#memory): what Claude learns in that Project's chats stays there and is not used in other Projects. Inside a Project, Claude also uses your general memory. For a confidential Project (a proposal you are evaluating, a paper under embargo), turn off **Use account memory** on the Project page so nothing flows in or out.
+
+Chats in the same Project don't see each other's content unless it is in the Project files.
 
 !!! note
     On a Pro plan, Projects are private to you. You cannot share a Project with a colleague; share the files and the instructions instead.

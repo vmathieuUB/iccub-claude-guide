@@ -15,7 +15,7 @@ Anthropic offers a **Claude Team plan for scientists** to principal investigator
 3. Wait for the review. Most applications are reviewed within **5 to 7 working days**; you get an email when you are approved.
 4. Once approved, add the members of your group as seats.
 
-At the time of writing (October 2026), the **Standard** seat is free and the **Premium** seat (5× more usage) is discounted, for the first 12 months, for up to 25 seats per group. Check the program page for the current conditions; promotional pricing is not guaranteed.
+At the time of writing (October 2026), the **Standard** seat is free and the **Premium** seat (5× more usage) costs $15/month instead of $100, for the first 12 months, for up to 25 seats per group. Seats include Claude Code, [Claude Science](../using-claude/science.md) and the longer-task features. A group with no activity for 90 days may go back to normal Team pricing. Check the program page for the current conditions; promotional pricing is not guaranteed.
 
 ## 3. Otherwise: your own Pro plan
 

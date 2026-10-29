@@ -11,7 +11,9 @@ Drag files into the chat, or click **+** next to the message box. Claude then re
 | Code | `.py`, `.ipynb`, `.c`, `.f90`, `.tex` and other text files | The text |
 | Images | PNG, JPEG, GIF, WebP | The image: plots, photos of a whiteboard, screenshots, handwritten notes |
 
-Limits: up to **30 MB per file** and **20 files per chat**. Only text is read from PDFs longer than about 1000 pages. Images work best at 1000 px or more on a side.
+Limits in a chat: up to **500 MB per file** and **20 files per chat**. PDFs can have up to 1000 pages; figures are only read in PDFs of 100 pages or fewer. Files you add to a [Project](projects.md) are limited to 30 MB each. Images work best at 1000 px or more on a side.
+
+In the **desktop app** you can also give Claude a whole folder on your computer instead of uploading files one by one. See [Longer tasks and scheduling](tasks.md#files-on-your-computer-desktop-app).
 
 !!! warning "Before you upload"
     Check [Data and privacy](../getting-started/data-and-privacy.md). No referee reports, no student data with names, no collaboration-internal material unless you have checked the rules.
@@ -27,7 +29,7 @@ Claude reads the figures in a PDF, so you can ask about plots directly. Check an
 
 ## Data
 
-With **Code execution and file creation** turned on (Settings → Capabilities), Claude can run Python on an uploaded CSV or Excel file: compute statistics, fit a model, make a plot, and give you the resulting file.
+With **Create and edit files** (formerly *Code execution and file creation*) turned on in Settings → Capabilities, Claude can run Python on an uploaded CSV or Excel file: compute statistics, fit a model, make a plot, and give you the resulting file. It can also hand you a spreadsheet with working formulas, a Word document or a PowerPoint deck.
 
 - *"Plot column `flux` against `mjd`, with error bars from `flux_err`, and mark points with `flag == 1` in red."*
 - *"Fit a power law to this spectrum between 1 and 10 keV and give me the index with an uncertainty."*

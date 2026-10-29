@@ -8,7 +8,9 @@ Fes-lo servir en lloc del xat quan la tasca tracti del **teu propi codi**: un pi
 
 - **Terminal** (macOS, Linux, Windows): la versió completa. Instruccions més avall.
 - **VS Code** i **JetBrains**: instal·la l'extensió Claude Code. Mostra els canvis com a diffs a l'editor. Consulta [Claude a VS Code](vs-code.md).
-- **Aplicació d'escriptori** i **web** ([claude.ai/code](https://claude.ai/code)): no cal instal·lar res. La versió web treballa sobre un repositori de GitHub al núvol, no al teu portàtil.
+- **Aplicació d'escriptori**: obre la pestanya **Code**. No cal instal·lar res a part; hi veus els diffs de manera visual, pots tenir diverses sessions en paral·lel i programar tasques periòdiques.
+- **Web** ([claude.ai/code](https://claude.ai/code)) i l'**aplicació mòbil**: no cal instal·lar res. Treballen sobre un repositori de GitHub al núvol, no al teu portàtil, i continuen funcionant quan tanques la pàgina.
+- **Remote Control**: inicia una sessió al teu ordinador i després segueix-la i redirigeix-la des del mòbil o des d'un altre navegador.
 
 ## Instal·lació (terminal)
 
@@ -24,7 +26,7 @@ Windows PowerShell:
 irm https://claude.ai/install.ps1 | iex
 ```
 
-O amb Homebrew: `brew install --cask claude-code`. Comprova que ha funcionat amb `claude --version`.
+O amb Homebrew (`brew install --cask claude-code`) o WinGet (`winget install Anthropic.ClaudeCode`); aquestes dues opcions no s'actualitzen automàticament. Comprova que ha funcionat amb `claude --version` en una finestra de terminal nova.
 
 Després ves a la carpeta d'un projecte i inicia'l:
 
@@ -55,7 +57,7 @@ Després, canvis petits i fàcils de comprovar:
 ## Mantén el control
 
 - **Fes servir git.** Fes un commit abans de demanar canvis grans, perquè sempre puguis tornar enrere. Demana a Claude *"mostra'm què has canviat"* abans de fer el commit.
-- **Permisos.** Claude Code pot executar ordres i editar fitxers sense preguntar cada vegada, segons el mode de permisos. Prem `Shift+Tab` per canviar de mode, per exemple a un que pregunti abans de cada canvi mentre n'aprens.
+- **Permisos.** A Pro, Claude Code ara comença en mode **Auto**: un classificador de seguretat revisa la majoria d'accions en lloc de preguntar-te. Prem `Shift+Tab` per canviar de mode, per exemple a **Manual** (pregunta abans de cada canvi) mentre n'aprens, o al **plan mode** per obtenir un pla abans que toqui res. Escriure `/plan` seguit d'una tasca fa el mateix.
 - **No l'executis en carpetes amb secrets o amb dades que no pots compartir** (consulta [Dades i privadesa](../getting-started/data-and-privacy.md)). Llegeix el que necessita de la carpeta on l'inicies.
 - **Comprova els resultats**: executa els tests i mira els gràfics. Claude Code es pot equivocar amb tota la seguretat del món en detalls científics.
 
@@ -71,7 +73,14 @@ Crea un fitxer anomenat `CLAUDE.md` a l'arrel del teu repositori. Claude Code el
 - El punt d'entrada principal del pipeline és `run_pipeline.py`.
 ```
 
-Escriu `/init` a Claude Code perquè te'n prepari un esborrany.
+Escriu `/init` a Claude Code perquè te'n prepari un esborrany. Claude Code també conserva la seva pròpia **memòria automàtica** (auto memory) del que aprèn sobre el projecte d'una sessió a l'altra.
+
+## Per anar més lluny
+
+- **Skills**: escriu `/` per veure les ordres i skills disponibles. Pots escriure les teves (per exemple, "com fem les figures dels articles") i Claude Code les fa servir quan cal. Consulta [Skills](tasks.md#skills).
+- **Tasques programades**: `/schedule` crea una tasca que s'executa al núvol periòdicament, com ara executar els tests cada nit o revisar les dependències cada setmana.
+- **Ordres puntuals**: `claude -p "explica aquesta funció"` respon i surt, de manera que pots fer servir Claude en scripts.
+- **Connecta eines** amb servidors MCP, per exemple per llegir issues de GitLab o tiquets d'un gestor d'incidències.
 
 ## Ordres útils
 
@@ -79,8 +88,10 @@ Escriu `/init` a Claude Code perquè te'n prepari un esborrany.
 |---|---|
 | `claude` | Inicia una sessió a la carpeta actual |
 | `claude -c` | Continua l'última sessió d'aquesta carpeta |
+| `claude -r` | Tria una sessió anterior per reprendre-la |
 | `/clear` | Comença una conversa nova (fes-la servir quan canviïs de tasca) |
 | `/help` | Mostra la llista d'ordres |
+| `Shift+Tab` | Canvia el mode de permisos |
 | `Esc` | Interromp Claude |
 
 Per aprendre'n més, el curs gratuït [Claude Code 101](https://academy.claude.com/courses/claude-code-101) és un bon pas següent.

@@ -11,7 +11,9 @@ Arrossega fitxers al xat, o fes clic a **+** al costat del quadre de missatge. A
 | Codi | `.py`, `.ipynb`, `.c`, `.f90`, `.tex` i altres fitxers de text | El text |
 | Imatges | PNG, JPEG, GIF, WebP | La imatge: gràfics, fotos d'una pissarra, captures de pantalla, notes escrites a mà |
 
-Límits: fins a **30 MB per fitxer** i **20 fitxers per xat**. Dels PDF de més d'unes 1000 pàgines només se'n llegeix el text. Les imatges funcionen millor amb 1000 px o més per costat.
+Límits en un xat: fins a **500 MB per fitxer** i **20 fitxers per xat**. Els PDF poden tenir fins a 1000 pàgines; les figures només es llegeixen en PDF de 100 pàgines o menys. Els fitxers que afegeixes a un [Project](projects.md) tenen un límit de 30 MB cadascun. Les imatges funcionen millor amb 1000 px o més per costat.
+
+A l'**aplicació d'escriptori** també pots donar a Claude una carpeta sencera del teu ordinador en lloc de pujar els fitxers un per un. Consulta [Tasques llargues i programades](tasks.md#files-on-your-computer-desktop-app).
 
 !!! warning "Abans de pujar res"
     Consulta [Dades i privadesa](../getting-started/data-and-privacy.md). Res d'informes de revisió (referee reports), res de dades d'estudiants amb noms, res de material intern d'una col·laboració si no has comprovat les normes.
@@ -27,7 +29,7 @@ Claude llegeix les figures d'un PDF, així que pots preguntar directament pels g
 
 ## Dades
 
-Amb **Code execution and file creation** activat (Settings → Capabilities), Claude pot executar Python sobre un fitxer CSV o Excel que hagis pujat: calcular estadístiques, ajustar un model, fer un gràfic i donar-te el fitxer resultant.
+Amb **Create and edit files** (abans *Code execution and file creation*) activat a Settings → Capabilities, Claude pot executar Python sobre un fitxer CSV o Excel que hagis pujat: calcular estadístiques, ajustar un model, fer un gràfic i donar-te el fitxer resultant. També et pot lliurar un full de càlcul amb fórmules que funcionen, un document Word o una presentació PowerPoint.
 
 - *"Representa la columna `flux` en funció de `mjd`, amb barres d'error a partir de `flux_err`, i marca en vermell els punts amb `flag == 1`."*
 - *"Ajusta una llei de potències a aquest espectre entre 1 i 10 keV i dona'm l'índex amb la seva incertesa."*

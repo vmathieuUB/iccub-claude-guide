@@ -25,7 +25,7 @@ Claude works on the **folder you open** in VS Code. Open the folder of your pape
 | Have Claude change code | Describe the change. Claude shows each edit as a **diff**; accept or reject it. |
 | Plan before changing anything | Type `/plan` followed by the task. Claude proposes a plan you can edit before it touches any file. |
 | Work on several things | Open several conversations in separate tabs. |
-| Think harder | Turn on **extended thinking** from the `/` menu for tricky bugs and derivations. |
+| Think harder | Raise the **effort** level (from the `/` menu) for tricky bugs and derivations. |
 
 ## Not just code
 
@@ -45,7 +45,7 @@ Put a `CLAUDE.md` file at the top of the folder: what the project is, how to run
 
 - **Use git** (VS Code has it built in, in the Source Control panel). Commit before a big change so you can undo it.
 - **Read the diffs** before accepting. Claude can be confidently wrong.
-- **Permission mode**: by default Claude may edit and run things with less asking. Switch to a mode that asks before each change while you learn (see the mode selector in the panel, or `Shift+Tab` in the terminal version).
+- **Permission mode**: Claude now starts in **Auto**, where a safety classifier reviews most actions instead of asking you. While you learn, click the mode indicator at the bottom of the prompt box and pick **Manual**, which asks before each change.
 - Don't open folders that contain secrets or data you are not allowed to share. See [Data and privacy](../getting-started/data-and-privacy.md).
 
 ## Extension or terminal?

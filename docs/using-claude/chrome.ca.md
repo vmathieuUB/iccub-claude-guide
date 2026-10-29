@@ -1,6 +1,6 @@
 # Claude in Chrome
 
-**Claude in Chrome** és una extensió del navegador que permet que Claude llegeixi pàgines web, hi faci clic i hi escrigui, des d'un panell lateral al costat de la pàgina. Pot fer per tu tasques de diversos passos en llocs web: omplir un formulari, recollir informació de diverses pestanyes, navegar per un portal web complicat. Està disponible amb Pro (en beta) per a Google Chrome d'escriptori.
+**Claude in Chrome** és una extensió del navegador que permet que Claude llegeixi pàgines web, hi faci clic i hi escrigui, des d'un panell lateral al costat de la pàgina. Pot fer per tu tasques de diversos passos en llocs web: omplir un formulari, recollir informació de diverses pestanyes, navegar per un portal web complicat. Està inclosa a Pro, només per a Google Chrome d'escriptori (no per a altres navegadors Chromium ni per al mòbil).
 
 ## Instal·lació
 
@@ -9,6 +9,12 @@
 3. Inicia la sessió amb el teu compte de Claude Pro.
 4. Fixa-la: fes clic a la icona del trencaclosques de la barra d'eines i després a la xinxeta al costat de Claude.
 5. Fes clic a la icona de Claude per obrir el panell lateral.
+
+!!! info "Què ha canviat a la tardor de 2026"
+    - El panell lateral s'està convertint en una sessió completa de Claude (abans en deien sessió de *Cowork*): les converses es desen, se sincronitzen amb els teus altres dispositius i poden fer servir les teves skills i connectors. Arriba als comptes Pro de manera gradual. Per tornar enrere, fes clic als tres punts de la part superior dreta del panell i tria **Switch back to classic**.
+    - **Tasques programades**: la icona del rellotge de la part superior dreta del panell executa una tasca al navegador cada dia, cada setmana o cada mes.
+    - **Dreceres** (shortcuts): desa un prompt que reutilitzes i crida'l escrivint `/`.
+    - L'**aplicació d'escriptori** ara té el seu propi navegador integrat, que Claude pot fer servir en lloc de Chrome durant les [tasques llargues](tasks.md). Tria quin a **Settings → Cowork → Preferred browser**. Perquè l'aplicació d'escriptori pugui fer servir Chrome, ves a **Customize → Connectors**, fes clic a **Configure** al costat de Claude in Chrome i activa-ho.
 
 ## Per a què és útil
 
@@ -21,6 +27,7 @@
 
 Claude in Chrome actua **com si fossis tu**, als llocs on tens la sessió iniciada. Pensa-ho com si deixessis el teu portàtil a algú durant uns minuts.
 
+- **Comprova el mode de permisos.** El panell lateral comença en **Automatically approve**, en què Claude només s'atura quan una acció necessita aprovació. Mentre n'aprens, canvia a un mode que pregunti abans de cada acció; el panell recorda la teva tria.
 - **Comença amb tasques només de lectura.** Deixa que reculli informació i la resumeixi abans de deixar-lo escriure o fer clic a *Submit*.
 - **Demana-li que s'aturi abans d'enviar**: afegeix *"No l'enviïs, ho revisaré primer"* a qualsevol tasca amb formularis.
 - **Permisos per lloc web**: Claude pregunta abans d'actuar en un lloc nou. Permet només els llocs que necessitis. Evita la banca en línia, les nòmines de la UB i els portals de recursos humans.

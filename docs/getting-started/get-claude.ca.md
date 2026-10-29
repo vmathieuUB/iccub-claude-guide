@@ -15,7 +15,7 @@ Anthropic ofereix un **pla Claude Team per a científics** als investigadors pri
 3. Espera la revisió. La majoria de sol·licituds es revisen en **5 a 7 dies laborables**; rebràs un correu quan t'aprovin.
 4. Un cop aprovat, afegeix els membres del teu grup com a places (seats).
 
-En el moment d'escriure això (octubre de 2026), la plaça **Standard** és gratuïta i la plaça **Premium** (5× més ús) té descompte, durant els primers 12 mesos, per a un màxim de 25 places per grup. Consulta la pàgina del programa per veure les condicions actuals; els preus promocionals no estan garantits.
+En el moment d'escriure això (octubre de 2026), la plaça **Standard** és gratuïta i la plaça **Premium** (5× més ús) costa 15 $/mes en lloc de 100 $, durant els primers 12 mesos, per a un màxim de 25 places per grup. Les places inclouen Claude Code, [Claude Science](../using-claude/science.md) i les funcions de tasques llargues. Un grup sense activitat durant 90 dies pot tornar al preu normal del pla Team. Consulta la pàgina del programa per veure les condicions actuals; els preus promocionals no estan garantits.
 
 ## 3. Si no: el teu propi pla Pro
 

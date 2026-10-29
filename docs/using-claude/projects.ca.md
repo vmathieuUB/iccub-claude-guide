@@ -12,10 +12,10 @@ Amb Pro pots tenir tants Projects com vulguis. Els Projects grans es gestionen a
 
 ## Crea'n un
 
-1. Fes clic a **Projects** a la barra lateral esquerra i després a **New project**.
+1. Fes clic a **Projects** a la barra lateral esquerra i després a **+ New project**.
 2. Posa-li un nom i, si vols, una descripció.
 3. Afegeix fitxers a **Project knowledge**: PDF, text, codi, notes.
-4. Escriu les **Project instructions** (mira més avall).
+4. Fes clic a **Set project instructions** i escriu-les (mira més avall).
 5. Comença un xat dins del Project.
 
 ## Escriu bones instruccions
@@ -40,6 +40,12 @@ Grau en Física, UB). Els estudiants saben física de grau i Python bàsic.
 | Una proposta de finançament | El text de la convocatòria, els criteris d'avaluació, el teu CV, propostes anteriors |
 | El codi del teu grup | README, una descripció del pipeline, convencions de programació |
 | Divulgació | El teu públic objectiu, xerrades anteriors, el format de l'espai o l'esdeveniment |
+
+## Memòria del Project
+
+Cada Project té la seva pròpia [memòria](../getting-started/data-and-privacy.md#memory): el que Claude aprèn als xats d'aquell Project s'hi queda i no es fa servir en altres Projects. Dins d'un Project, Claude també fa servir la teva memòria general. Per a un Project confidencial (una proposta que avalues, un article sota embargament), desactiva **Use account memory** a la pàgina del Project perquè no hi entri ni en surti res.
+
+Els xats d'un mateix Project no veuen el contingut dels altres, tret que sigui als fitxers del Project.
 
 !!! note
     Amb un pla Pro, els Projects són privats. No pots compartir un Project amb un col·lega; comparteix-ne els fitxers i les instruccions.

@@ -16,7 +16,7 @@ Claude knows physics and Python, but not you, your project or your audience. Say
 | *Fix my code.* | *This function should return the luminosity distance in Mpc for a flat ΛCDM cosmology, but gives values 10% too high at z = 1. Find the bug.* (then paste the code) |
 | *Write an email to students.* | *Write a short, friendly email in Catalan to my Física Quàntica students saying the exam moves from 12 to 19 January, same room.* |
 
-Personal preferences you set in **Settings → Profile** are added to every chat, so you don't need to repeat who you are each time (see [Your first 30 minutes](../getting-started/first-steps.md)).
+Instructions you set in **Settings → Your Claude** are added to every chat, so you don't need to repeat who you are each time (see [Your first 30 minutes](../getting-started/first-steps.md)).
 
 ## Iterate, don't restart
 
@@ -38,8 +38,10 @@ Claude will often catch its own mistakes when asked. It will not catch all of th
 
 ## Useful tricks
 
-- **Extended thinking** (model menu below the message box): turn it on for derivations, debugging and anything where a careful answer matters more than a fast one.
-- **Edit your message**: hover over a message you sent and click the pencil to change it and get a new answer, instead of adding a correction.
+- **Effort** (model menu below the message box; *Extended thinking* in older versions): raise it for derivations, debugging and anything where a careful answer matters more than a fast one.
+- **Edit your message**: hover over a message you sent and click the pencil to change it and get a new answer, instead of adding a correction. This starts a new branch; the original answer is kept.
+- **Edit part of a draft**: when Claude writes a draft (a document, an email, a section), select the passage you want changed and ask for the edit there. Claude only rewrites that part.
+- **Hand over the whole task**: for bigger jobs (a report, a slide deck, a table from several papers), say what you want at the end and let Claude work through it. See [Longer tasks and scheduling](tasks.md).
 - **Retry**: the retry button under an answer gives you a different version.
 - **Ask for questions first**: *"Before you start, ask me anything you need to know."* is useful for bigger tasks like a course outline or a proposal section.
 - **Language**: Claude works well in English, Spanish and Catalan. Ask in one language and request the answer in another if you need to.

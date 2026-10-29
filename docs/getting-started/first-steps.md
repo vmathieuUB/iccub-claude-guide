@@ -8,17 +8,14 @@ Go to [claude.ai](https://claude.ai) and sign in with the email your account was
 
 ## 2. Check your privacy settings
 
-Open **Settings → Privacy**. The setting **Help improve Claude** decides whether your chats can be used to train future models.
+Open **Settings → Privacy**. The **model improvement** setting (labelled **Help Improve our AI models**) decides whether your chats can be used to train future models.
 
 !!! warning "Recommended for ICCUB"
-    Turn **Help improve Claude** off if you will discuss unpublished results, collaboration data, referee reports or student work. Read [Data and privacy](data-and-privacy.md) before uploading anything sensitive.
+    Turn model improvement off if you will discuss unpublished results, collaboration data, referee reports or student work. Read [Data and privacy](data-and-privacy.md) before uploading anything sensitive.
 
 ## 3. Tell Claude who you are
 
-Open **Settings → Profile** and fill in:
-
-- **What best describes your work**: for example *Research* or *Education*.
-- **Personal preferences**: short instructions Claude follows in every chat. For example:
+Open **Settings → Your Claude** and fill in **Instructions** (in the older layout: **Settings → Account → Instructions for Claude**). These are short instructions Claude follows in every chat. For example:
 
 ```text
 I am an astrophysicist at the Institute of Cosmos Sciences (ICCUB),
@@ -27,7 +24,7 @@ Answer concisely, use SI or cgs units as appropriate, and say
 clearly when you are unsure or when a reference should be checked.
 ```
 
-You can change this at any time.
+You can change this at any time. In the same place you can see what Claude has saved in its **memory** about you (see [Data and privacy](data-and-privacy.md#memory)).
 
 ## 4. Install the apps (optional)
 
@@ -36,6 +33,7 @@ The web version is enough to start. If you want more:
 - **Desktop app** for macOS and Windows, from [claude.ai/download](https://claude.ai/download).
 - **Mobile app** for iOS and Android, from your app store. Your chats sync across all of them.
 - **Claude Code**, for working on code in your terminal or VS Code, is covered in [Claude Code](../using-claude/claude-code.md).
+- **Claude in Chrome** and the **Microsoft 365** add-ins (Excel, Word, PowerPoint) put Claude in your browser and Office apps.
 
 More detail in [What Claude Pro includes](what-is-claude.md).
 
@@ -54,14 +52,15 @@ If the first answer is not right, reply and say what to change. Iterating in the
 
 | Control | Where | What it does |
 |---|---|---|
-| Model picker | Below the message box | Pick a model. The default is fine for most work; the larger model is slower but better at hard reasoning. |
-| Extended thinking | Same menu | Claude thinks longer before answering. Useful for derivations and tricky code. |
-| **+** button | Left of the message box | Upload files, turn on web search, connect tools. |
+| Model picker | Below the message box | Pick a model. Sonnet is fine for most work; Opus is slower but better at hard reasoning. Fable costs extra on Pro (see [What Claude Pro includes](what-is-claude.md#models)). |
+| Effort | Same menu | How long Claude thinks before answering (older versions: *Extended thinking*). Raise it for derivations and tricky code. |
+| **+** button | Left of the message box | Upload files, start a **Research** report, switch connectors and memory on or off for this chat. |
+| Permission control | In the message box | **Auto** lets Claude work through a task without asking at each step; **Manual** makes it ask first. See [Longer tasks](../using-claude/tasks.md). |
 | Projects | Left sidebar | Keep files and instructions together for one course or paper. See [Projects](../using-claude/projects.md). |
 
 ## 7. Know the usage limits
 
-Pro has generous but finite usage. Long chats, large files and the larger model use your allowance faster. If you hit the limit, Claude tells you when it resets (usually within a few hours). Starting a new chat for a new topic, instead of continuing a very long one, makes your allowance last longer.
+Pro has generous but finite usage. Long chats, large files, long tasks and Opus use your allowance faster. If you hit the limit, Claude tells you when it resets (usually within a few hours); **Settings → Usage** shows where you stand. Leave **usage credits** off unless you are willing to pay beyond the subscription. Starting a new chat for a new topic, instead of continuing a very long one, makes your allowance last longer.
 
 ## 8. Keep your judgement on
 
