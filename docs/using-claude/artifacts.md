@@ -4,14 +4,16 @@ When Claude produces something substantial (a document, a slide deck, a design, 
 
 ## Kinds of Artifact
 
-Since September 2026, Artifacts come in a few types. You don't need to pick one: ask for what you want and Claude chooses. You can also start from a template in the **Artifacts** tab.
+Since September 2026, Artifacts come in a few types, and Sheets and Whiteboards (both in beta) are the newest. You don't need to pick one: ask for what you want and Claude chooses. You can also start from a template in the **Artifacts** tab.
 
 | Type | Good for | Export to |
 |---|---|---|
 | **Docs** | A course handout, a one-page project summary, a report, meeting notes | Word, PDF, Markdown, Google Docs |
 | **Slides** | A talk, a seminar, lecture slides from your notes | PowerPoint, PDF, Google Slides |
 | **Design** | A poster, a one-pager, a landing page for an event, a mock-up | PDF, PowerPoint, HTML, .zip |
-| **Dashboards** (beta) | Live charts from data in a connected app | |
+| **Sheets** (beta) | A spreadsheet you and Claude edit together: a grading sheet, an observing log, a budget with working formulas | .xlsx, CSV |
+| **Whiteboards** (beta) | Thinking through an idea: Claude arranges notes into diagrams, flows and groups (a paper outline, a project plan) | PNG |
+| **Data** (formerly *Dashboards*) | Dashboards and short data stories from a connected data source (a database or an app such as Salesforce). Mostly meant for company data; for your own data files, upload them to a chat instead. | |
 | **Interactive pages** | A slider that shows how a Planck spectrum changes with temperature, a quiz for students, a simple calculator | |
 
 Artifacts made before September 2026 still work and can still be published, but new ones use the types above.
@@ -53,4 +55,4 @@ If Artifacts don't appear, check that **Create and edit files** (formerly *Code 
 - Check physics and numbers in an Artifact just as you would in a chat answer: a nice-looking slide or slider can still use the wrong formula.
 - Exported PowerPoint or Word files may need layout fixes; open them before you present or send them.
 
-Reference: [What are artifacts and how do I use them?](https://support.claude.com/en/articles/17153992-what-are-artifacts-and-how-do-i-use-them) (Anthropic help center).
+References: [What are artifacts and how do I use them?](https://support.claude.com/en/articles/17153992-what-are-artifacts-and-how-do-i-use-them), [Claude Sheets](https://support.claude.com/en/articles/18324300-get-started-with-claude-sheets), [Claude Whiteboards](https://support.claude.com/en/articles/18324319-get-started-with-claude-whiteboards), [Claude Data](https://support.claude.com/en/articles/17454700-get-started-with-claude-data) (Anthropic help center).

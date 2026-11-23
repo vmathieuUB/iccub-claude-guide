@@ -35,7 +35,7 @@ Pick the model in the menu below the message box.
 |---|---|---|
 | Chat and file upload | Ask questions, upload PDFs, images, code, data files. | [Uploading files](../using-claude/files.md) |
 | Projects | Keep files and standing instructions together for one course, paper or proposal. Unlimited on Pro. | [Projects](../using-claude/projects.md) |
-| Artifacts: Docs, Slides, Design | Claude writes documents, slide decks, designs and small interactive pages you can edit, export (Word, PDF, PowerPoint…) and share. | [Artifacts](../using-claude/artifacts.md) |
+| Artifacts: Docs, Slides, Design, Sheets, Whiteboards, Data | Claude writes documents, slide decks, designs, spreadsheets (beta), whiteboards (beta), data dashboards and small interactive pages you can edit, export (Word, PDF, PowerPoint, Excel…) and share. | [Artifacts](../using-claude/artifacts.md) |
 | Longer tasks and scheduling | Claude works through multi-step tasks, returns finished files, and can repeat a task on a schedule. | [Longer tasks and scheduling](../using-claude/tasks.md) |
 | Skills | Reusable instructions for a type of task (built-in ones for Word, Excel, PowerPoint and PDF files, or your own). | [Longer tasks and scheduling](../using-claude/tasks.md#skills) |
 | Web search | Claude searches the web when it helps and cites its sources. | [Web search and Research](../using-claude/research.md) |
@@ -59,10 +59,10 @@ Pro is not unlimited.
 
 To make it last: start a new chat for each new topic, put files you reuse in a [Project](../using-claude/projects.md) instead of re-uploading them, and keep Opus and high effort for the problems that need them.
 
-If you regularly hit the limits, the **Max** plan offers 5× or 20× more usage at a higher price.
+If you regularly hit the limits, two higher plans exist: **Max** (5× Pro usage) and **Ultra** (10× Pro's weekly usage, with no five-hour limit). Both include Fable up to half of the weekly limit. See the [official plan comparison](https://claude.com/pricing) for current prices.
 
 ## What Pro does not include
 
 - **No contract between UB and Anthropic.** Pro is a personal (consumer) plan. Your data is handled under Anthropic's consumer terms, not an institutional agreement. Read [Data and privacy](data-and-privacy.md).
-- **No API access.** Using Claude from your own programs through the API is billed separately at [platform.claude.com](https://platform.claude.com). (Max and Team plans now include some monthly API credits; Pro does not.)
+- **No API access.** Using Claude from your own programs through the API is billed separately at [platform.claude.com](https://platform.claude.com). (Max, Ultra and Team plans now include some monthly API credits; Pro does not.)
 - **No shared admin.** Projects and chats are yours; you cannot share a Project with colleagues. There is no ICCUB-wide workspace. A group [Team plan](get-claude.md) adds sharing.

@@ -3,34 +3,38 @@
 What happens to what you type and upload, and what you should keep out of Claude.
 
 !!! info "Not legal advice"
-    This page summarises Anthropic's public policies as of October 2026. For anything that matters, check the [Anthropic Privacy Center](https://privacy.claude.com) and the UB data protection rules.
+    This page summarises Anthropic's public policies as of November 2026. For anything that matters, check the [Anthropic Privacy Center](https://privacy.claude.com) and the UB data protection rules.
 
 ## What happens to your data
 
 Claude Pro is a **consumer** plan. Your chats are covered by Anthropic's [Consumer Terms](https://www.anthropic.com/legal/consumer-terms) and [Privacy Policy](https://www.anthropic.com/legal/privacy), not by a contract with UB.
 
-**Model training is your choice.** The **model improvement** setting (Settings → Privacy, labelled **Help Improve our AI models**) decides whether your chats and Claude Code sessions can be used to train future models.
+**Model training is your choice.** The **model improvement** setting (Settings → Privacy, labelled **Help Improve our AI models**) decides whether your chats and Claude Code sessions can be used to train future models. It is in the same place in the web app, the desktop app and the mobile app (tap your name → **Settings → Privacy**). If you turn it off, Anthropic stops using your past and new chats in future training; models already trained are not changed.
+
+!!! note "Don't see this setting?"
+    On a seat in a **Team plan** (for example your group's plan for scientists) there is no such toggle: Settings → Privacy only shows items such as location metadata, shared chats and your feedback. Team plans fall under Anthropic's commercial terms, and Anthropic does not train on them by default.
 
 | Setting | Used for training? | How long Anthropic keeps your chats |
 |---|---|---|
-| **Off** (recommended) | No | Deleted chats are removed within 30 days |
-| **On** | Yes | Up to 5 years, in de-identified form |
+| **Off** (recommended) | No | Until you delete them. A deleted chat leaves your history at once and Anthropic's servers within 30 days. |
+| **On** | Yes | Up to 5 years in the training pipeline, in de-identified form (for chats started or resumed after you turned it on). |
 
 A few details:
 
 - **Deleted chats** are not used for future training, whatever the setting.
-- **Incognito chats** (an option when starting a new chat) are never used for training and do not appear in your history.
+- **Incognito chats** (the ghost icon at the top right of a new chat) are never used for training and do not appear in your history.
 - **Thumbs up / down feedback** sends that whole conversation to Anthropic, who may keep it for up to 5 years and use it for training, even with the setting off. Don't rate chats that contain sensitive material.
-- **Chats flagged for safety review** may be kept longer (up to 2 years).
-- **Connectors** (Google Drive, Gmail and so on) let Claude read what you point it to in that chat. That content is then part of the chat.
+- **Chats flagged for safety review** may be kept longer (up to 2 years, and the safety scores up to 7 years). They may be used to train Anthropic's safety systems even with the setting off.
+- **Fable** models are subject to extra safety monitoring: your prompts and Claude's answers are kept for **at least 30 days**, even if you delete the chat.
+- **Connectors** (Google Drive, Gmail and so on) let Claude read what you point it to in that chat. That content is then part of the chat. Raw content from connectors is not used for training, unless it is copied into the conversation.
 - **Folders on your computer** that you open to Claude in the desktop app, [Claude Code](../using-claude/claude-code.md) or [Claude Science](../using-claude/science.md): what Claude reads from them is sent to Anthropic like an upload.
 
 ## Memory {#memory}
 
 Claude keeps a **memory** of useful context from your chats (your field, your courses, how you like answers), stored as separate topics. It is on by default on Pro.
 
-- **See and edit it**: **Settings → Your Claude**, then **Manage** next to *Your memory*. Open a topic to read, edit or delete it. You can also tell Claude in a chat to remember or forget something.
-- **Turn it off**: the **Memory from chats** toggle in the same place. Pausing keeps what is stored; resetting deletes it all.
+- **See and edit it**: **Settings → Your Claude**, then **Manage** next to *Your memory* (older layout: **Settings → Memory**). Open a topic to read, edit or delete it. You can also tell Claude in a chat to remember or forget something.
+- **Turn it off**: the **Generate memory from chats** toggle in the same place. Pausing keeps what is stored; resetting deletes it all.
 - **One chat without memory**: click **+** and switch off Memory before the first message, or use an incognito chat.
 - **Projects** have their own memory. To keep a Project completely separate from the rest, turn off **Use account memory** on the Project page.
 - **Sensitive topics** (health, politics, religion…) are not saved unless you turn on **Include sensitive topics in memory**. Leave it off.
@@ -73,5 +77,7 @@ If the data cannot leave ICCUB at all, run an open model on your own machine or 
 
 - [Is my data used for model training?](https://privacy.claude.com/en/articles/10023580-is-my-data-used-for-model-training) (Anthropic Privacy Center)
 - [How long do you store my data?](https://privacy.claude.com/en/articles/10023548-how-long-do-you-store-my-data) (Anthropic Privacy Center)
+- [How do I change my model improvement privacy settings?](https://privacy.claude.com/en/articles/12109829-how-do-i-change-my-model-improvement-privacy-settings) (Anthropic Privacy Center)
+- [Covered Models](https://support.claude.com/en/articles/15425695-covered-models) (Anthropic help center, data handling for Fable)
 - [Chat search and memory](https://support.claude.com/en/articles/11817273-use-claude-s-chat-search-and-memory-to-build-on-previous-context) (Anthropic help center)
 - [Updates to Consumer Terms and Privacy Policy](https://www.anthropic.com/news/updates-to-our-consumer-terms) (Anthropic, 2025)

@@ -3,34 +3,38 @@
 Què passa amb el que escrius i puges, i què no hauries de posar a Claude.
 
 !!! info "No és assessorament jurídic"
-    Aquesta pàgina resumeix les polítiques públiques d'Anthropic a octubre de 2026. Per a qualsevol cosa important, consulta l'[Anthropic Privacy Center](https://privacy.claude.com) i la normativa de protecció de dades de la UB.
+    Aquesta pàgina resumeix les polítiques públiques d'Anthropic a novembre de 2026. Per a qualsevol cosa important, consulta l'[Anthropic Privacy Center](https://privacy.claude.com) i la normativa de protecció de dades de la UB.
 
 ## Què passa amb les teves dades
 
 Claude Pro és un pla **de consum**. Les teves converses es regeixen per les [Consumer Terms](https://www.anthropic.com/legal/consumer-terms) (condicions de consum) i la [Privacy Policy](https://www.anthropic.com/legal/privacy) (política de privadesa) d'Anthropic, no per un contracte amb la UB.
 
-**L'entrenament de models depèn de tu.** L'opció de **millora del model** (Settings → Privacy, amb l'etiqueta **Help Improve our AI models**) determina si les teves converses i sessions de Claude Code es poden fer servir per entrenar models futurs.
+**L'entrenament de models depèn de tu.** L'opció de **millora del model** (Settings → Privacy, amb l'etiqueta **Help Improve our AI models**) determina si les teves converses i sessions de Claude Code es poden fer servir per entrenar models futurs. És al mateix lloc a l'aplicació web, a la d'escriptori i a la mòbil (toca el teu nom → **Settings → Privacy**). Si la desactives, Anthropic deixa de fer servir les teves converses passades i noves en entrenaments futurs; els models ja entrenats no canvien.
+
+!!! note "No veus aquesta opció?"
+    En una plaça d'un **pla Team** (per exemple, el pla per a científics del teu grup) no hi ha aquest interruptor: Settings → Privacy només mostra elements com la metadada d'ubicació, els xats compartits i els teus comentaris. Els plans Team es regeixen per les condicions comercials d'Anthropic, i Anthropic no els fa servir per entrenar per defecte.
 
 | Opció | S'utilitza per entrenar? | Quant de temps conserva Anthropic les teves converses |
 |---|---|---|
-| **Desactivada** (recomanat) | No | Les converses esborrades s'eliminen en un termini de 30 dies |
-| **Activada** | Sí | Fins a 5 anys, de forma desidentificada |
+| **Desactivada** (recomanat) | No | Fins que les esborres. Una conversa esborrada desapareix de l'historial a l'instant i dels servidors d'Anthropic en un termini de 30 dies. |
+| **Activada** | Sí | Fins a 5 anys a la cadena d'entrenament, de forma desidentificada (per a les converses començades o reprises després d'activar-la). |
 
 Alguns detalls:
 
 - Les **converses esborrades** no es fan servir per a futurs entrenaments, sigui quina sigui l'opció.
-- Les **converses d'incògnit** (una opció en començar un xat nou) no es fan servir mai per entrenar i no apareixen a l'historial.
+- Les **converses d'incògnit** (la icona del fantasma a dalt a la dreta d'un xat nou) no es fan servir mai per entrenar i no apareixen a l'historial.
 - La **valoració amb polze amunt / avall** envia tota aquella conversa a Anthropic, que la pot conservar fins a 5 anys i fer-la servir per entrenar, encara que tinguis l'opció desactivada. No valoris converses que continguin material sensible.
-- Les **converses marcades per a revisió de seguretat** es poden conservar més temps (fins a 2 anys).
-- Els **connectors** (Google Drive, Gmail, etc.) permeten que Claude llegeixi el que li indiquis en aquell xat. Aquest contingut passa a formar part de la conversa.
+- Les **converses marcades per a revisió de seguretat** es poden conservar més temps (fins a 2 anys, i les puntuacions de seguretat fins a 7 anys). Es poden fer servir per entrenar els sistemes de seguretat d'Anthropic encara que tinguis l'opció desactivada.
+- Els models **Fable** tenen una supervisió de seguretat addicional: les teves peticions i les respostes de Claude es conserven **almenys 30 dies**, encara que esborris la conversa.
+- Els **connectors** (Google Drive, Gmail, etc.) permeten que Claude llegeixi el que li indiquis en aquell xat. Aquest contingut passa a formar part de la conversa. El contingut original dels connectors no es fa servir per entrenar, tret que es copiï a la conversa.
 - Les **carpetes del teu ordinador** que obres a Claude a l'aplicació d'escriptori, a [Claude Code](../using-claude/claude-code.md) o a [Claude Science](../using-claude/science.md): el que Claude en llegeix s'envia a Anthropic com si fos un fitxer pujat.
 
 ## Memòria {#memory}
 
 Claude conserva una **memòria** del context útil de les teves converses (el teu camp, les teves assignatures, com t'agraden les respostes), desada en temes separats. A Pro està activada per defecte.
 
-- **Consulta-la i edita-la**: **Settings → Your Claude** i després **Manage** al costat de *Your memory*. Obre un tema per llegir-lo, editar-lo o esborrar-lo. També pots dir a Claude, en un xat, que recordi o oblidi alguna cosa.
-- **Desactiva-la**: l'interruptor **Memory from chats**, al mateix lloc. Si la poses en pausa, es conserva el que hi ha desat; si la restableixes, s'esborra tot.
+- **Consulta-la i edita-la**: **Settings → Your Claude** i després **Manage** al costat de *Your memory* (disposició antiga: **Settings → Memory**). Obre un tema per llegir-lo, editar-lo o esborrar-lo. També pots dir a Claude, en un xat, que recordi o oblidi alguna cosa.
+- **Desactiva-la**: l'interruptor **Generate memory from chats**, al mateix lloc. Si la poses en pausa, es conserva el que hi ha desat; si la restableixes, s'esborra tot.
 - **Un xat sense memòria**: fes clic a **+** i desactiva Memory abans del primer missatge, o fes servir un xat d'incògnit.
 - Els **Projects** tenen la seva pròpia memòria. Per mantenir un Project del tot separat de la resta, desactiva **Use account memory** a la pàgina del Project.
 - Els **temes sensibles** (salut, política, religió…) no es desen tret que activis **Include sensitive topics in memory**. Deixa-ho desactivat.
@@ -73,5 +77,7 @@ Si les dades no poden sortir de cap manera de l'ICCUB, executa un model obert al
 
 - [Es fan servir les meves dades per entrenar models?](https://privacy.claude.com/en/articles/10023580-is-my-data-used-for-model-training) (Anthropic Privacy Center)
 - [Quant de temps es conserven les meves dades?](https://privacy.claude.com/en/articles/10023548-how-long-do-you-store-my-data) (Anthropic Privacy Center)
+- [Com canvio l'opció de millora del model?](https://privacy.claude.com/en/articles/12109829-how-do-i-change-my-model-improvement-privacy-settings) (Anthropic Privacy Center)
+- [Covered Models](https://support.claude.com/en/articles/15425695-covered-models) (centre d'ajuda d'Anthropic, tractament de dades de Fable)
 - [Cerca de xats i memòria](https://support.claude.com/en/articles/11817273-use-claude-s-chat-search-and-memory-to-build-on-previous-context) (centre d'ajuda d'Anthropic)
 - [Actualitzacions de les condicions de consum i de la política de privadesa](https://www.anthropic.com/news/updates-to-our-consumer-terms) (Anthropic, 2025)

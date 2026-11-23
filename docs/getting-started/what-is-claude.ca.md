@@ -35,7 +35,7 @@ Tria el model al menú que hi ha a sota del quadre de missatge.
 |---|---|---|
 | Xat i pujada de fitxers | Fes preguntes, puja PDF, imatges, codi i fitxers de dades. | [Pujar fitxers](../using-claude/files.md) |
 | Projects | Mantén junts els fitxers i les instruccions permanents d'una assignatura, un article o una proposta. Il·limitats a Pro. | [Projects](../using-claude/projects.md) |
-| Artifacts: Docs, Slides, Design | Claude escriu documents, presentacions, dissenys i petites pàgines interactives que pots editar, exportar (Word, PDF, PowerPoint…) i compartir. | [Artifacts](../using-claude/artifacts.md) |
+| Artifacts: Docs, Slides, Design, Sheets, Whiteboards, Data | Claude escriu documents, presentacions, dissenys, fulls de càlcul (beta), pissarres (beta), taulers de dades i petites pàgines interactives que pots editar, exportar (Word, PDF, PowerPoint, Excel…) i compartir. | [Artifacts](../using-claude/artifacts.md) |
 | Tasques llargues i programades | Claude fa tasques de diversos passos, et lliura fitxers acabats i pot repetir una tasca amb una periodicitat. | [Tasques llargues i programades](../using-claude/tasks.md) |
 | Skills | Instruccions reutilitzables per a un tipus de tasca (les integrades per a fitxers Word, Excel, PowerPoint i PDF, o les teves). | [Tasques llargues i programades](../using-claude/tasks.md#skills) |
 | Cerca web | Claude cerca al web quan li és útil i cita les fonts. | [Cerca web i Research](../using-claude/research.md) |
@@ -59,10 +59,10 @@ Pro no és il·limitat.
 
 Per fer-la durar: comença un xat nou per a cada tema nou, posa els fitxers que reutilitzes en un [Project](../using-claude/projects.md) en lloc de tornar-los a pujar, i reserva Opus i un Effort alt per als problemes que els necessiten.
 
-Si arribes sovint als límits, el pla **Max** ofereix 5× o 20× més ús a un preu més alt.
+Si arribes sovint als límits, hi ha dos plans superiors: **Max** (5× l'ús de Pro) i **Ultra** (10× l'ús setmanal de Pro, sense límit de cinc hores). Tots dos inclouen Fable fins a la meitat del límit setmanal. Consulta la [comparativa oficial de plans](https://claude.com/pricing) per als preus actuals.
 
 ## Què no inclou Pro
 
 - **Cap contracte entre la UB i Anthropic.** Pro és un pla personal (de consum). Les teves dades es tracten segons les condicions de consum d'Anthropic, no segons un acord institucional. Llegeix [Dades i privadesa](data-and-privacy.md).
-- **Cap accés a l'API.** Fer servir Claude des dels teus propis programes a través de l'API es factura a part a [platform.claude.com](https://platform.claude.com). (Els plans Max i Team ara inclouen alguns crèdits mensuals d'API; Pro no.)
+- **Cap accés a l'API.** Fer servir Claude des dels teus propis programes a través de l'API es factura a part a [platform.claude.com](https://platform.claude.com). (Els plans Max, Ultra i Team ara inclouen alguns crèdits mensuals d'API; Pro no.)
 - **Cap administració compartida.** Els Projects i els xats són teus; no pots compartir un Project amb col·legues. No hi ha cap espai de treball comú per a tot l'ICCUB. Un [pla Team](get-claude.md) de grup permet compartir.
