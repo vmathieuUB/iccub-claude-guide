@@ -4,14 +4,16 @@ Quan Claude produeix alguna cosa substancial (un document, una presentació, un 
 
 ## Tipus d'Artifact
 
-Des de setembre de 2026, els Artifacts són de diversos tipus. No cal que en triïs cap: demana el que vols i Claude tria. També pots començar a partir d'una plantilla a la pestanya **Artifacts**.
+Des de setembre de 2026, els Artifacts són de diversos tipus, i al novembre de 2026 s'hi han afegit Sheets i Whiteboards. No cal que en triïs cap: demana el que vols i Claude tria. També pots començar a partir d'una plantilla a la pestanya **Artifacts**.
 
 | Tipus | Útil per a | Exporta a |
 |---|---|---|
 | **Docs** | Un full informatiu per a una assignatura, un resum d'una pàgina d'un projecte, un informe, unes actes | Word, PDF, Markdown, Google Docs |
 | **Slides** | Una xerrada, un seminari, diapositives de classe a partir de les teves notes | PowerPoint, PDF, Google Slides |
 | **Design** | Un pòster, un full d'una pàgina, una pàgina web per a un esdeveniment, una maqueta | PDF, PowerPoint, HTML, .zip |
-| **Dashboards** (beta) | Gràfics en directe a partir de dades d'una aplicació connectada | |
+| **Sheets** (beta) | Un full de càlcul que edites amb Claude: un full de notes, un registre d'observacions, un pressupost amb fórmules que funcionen | .xlsx, CSV |
+| **Whiteboards** (beta) | Pensar una idea: Claude organitza les notes en diagrames, fluxos i grups (l'esquema d'un article, el pla d'un projecte) | PNG |
+| **Data** (abans *Dashboards*) | Taulers i petites històries de dades a partir d'una font de dades connectada (una base de dades o una aplicació com Salesforce). Pensat sobretot per a dades d'empresa; per als teus propis fitxers de dades, puja'ls a un xat. | |
 | **Pàgines interactives** | Un control lliscant que mostra com canvia l'espectre de Planck amb la temperatura, un qüestionari per als estudiants, una calculadora senzilla | |
 
 Els Artifacts creats abans de setembre de 2026 continuen funcionant i encara es poden publicar, però els nous fan servir els tipus d'aquesta taula.
@@ -53,4 +55,4 @@ Si no apareixen Artifacts, comprova que **Create and edit files** (abans *Code e
 - Comprova la física i els números d'un Artifact igual que ho faries amb una resposta del xat: una diapositiva o un control lliscant amb bon aspecte poden fer servir igualment una fórmula equivocada.
 - Els fitxers PowerPoint o Word exportats poden necessitar retocs de format; obre'ls abans de presentar-los o enviar-los.
 
-Referència: [What are artifacts and how do I use them?](https://support.claude.com/en/articles/17153992-what-are-artifacts-and-how-do-i-use-them) (centre d'ajuda d'Anthropic).
+Referències: [What are artifacts and how do I use them?](https://support.claude.com/en/articles/17153992-what-are-artifacts-and-how-do-i-use-them), [Claude Sheets](https://support.claude.com/en/articles/18324300-get-started-with-claude-sheets), [Claude Whiteboards](https://support.claude.com/en/articles/18324319-get-started-with-claude-whiteboards), [Claude Data](https://support.claude.com/en/articles/17454700-get-started-with-claude-data) (centre d'ajuda d'Anthropic).

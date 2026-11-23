@@ -35,7 +35,7 @@ Pick the model in the menu below the message box.
 |---|---|---|
 | Chat and file upload | Ask questions, upload PDFs, images, code, data files. | [Uploading files](../using-claude/files.md) |
 | Projects | Keep files and standing instructions together for one course, paper or proposal. Unlimited on Pro. | [Projects](../using-claude/projects.md) |
-| Artifacts: Docs, Slides, Design | Claude writes documents, slide decks, designs and small interactive pages you can edit, export (Word, PDF, PowerPoint…) and share. | [Artifacts](../using-claude/artifacts.md) |
+| Artifacts: Docs, Slides, Design, Sheets, Whiteboards, Data | Claude writes documents, slide decks, designs, spreadsheets (beta), whiteboards (beta), data dashboards and small interactive pages you can edit, export (Word, PDF, PowerPoint, Excel…) and share. | [Artifacts](../using-claude/artifacts.md) |
 | Longer tasks and scheduling | Claude works through multi-step tasks, returns finished files, and can repeat a task on a schedule. | [Longer tasks and scheduling](../using-claude/tasks.md) |
 | Skills | Reusable instructions for a type of task (built-in ones for Word, Excel, PowerPoint and PDF files, or your own). | [Longer tasks and scheduling](../using-claude/tasks.md#skills) |
 | Web search | Claude searches the web when it helps and cites its sources. | [Web search and Research](../using-claude/research.md) |

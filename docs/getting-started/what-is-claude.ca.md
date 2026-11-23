@@ -35,7 +35,7 @@ Tria el model al menú que hi ha a sota del quadre de missatge.
 |---|---|---|
 | Xat i pujada de fitxers | Fes preguntes, puja PDF, imatges, codi i fitxers de dades. | [Pujar fitxers](../using-claude/files.md) |
 | Projects | Mantén junts els fitxers i les instruccions permanents d'una assignatura, un article o una proposta. Il·limitats a Pro. | [Projects](../using-claude/projects.md) |
-| Artifacts: Docs, Slides, Design | Claude escriu documents, presentacions, dissenys i petites pàgines interactives que pots editar, exportar (Word, PDF, PowerPoint…) i compartir. | [Artifacts](../using-claude/artifacts.md) |
+| Artifacts: Docs, Slides, Design, Sheets, Whiteboards, Data | Claude escriu documents, presentacions, dissenys, fulls de càlcul (beta), pissarres (beta), taulers de dades i petites pàgines interactives que pots editar, exportar (Word, PDF, PowerPoint, Excel…) i compartir. | [Artifacts](../using-claude/artifacts.md) |
 | Tasques llargues i programades | Claude fa tasques de diversos passos, et lliura fitxers acabats i pot repetir una tasca amb una periodicitat. | [Tasques llargues i programades](../using-claude/tasks.md) |
 | Skills | Instruccions reutilitzables per a un tipus de tasca (les integrades per a fitxers Word, Excel, PowerPoint i PDF, o les teves). | [Tasques llargues i programades](../using-claude/tasks.md#skills) |
 | Cerca web | Claude cerca al web quan li és útil i cita les fonts. | [Cerca web i Research](../using-claude/research.md) |
