@@ -8,7 +8,7 @@ Ves a [claude.ai](https://claude.ai) i inicia la sessió amb el correu electròn
 
 ## 2. Revisa la configuració de privadesa
 
-Obre **Settings → Privacy**. L'opció de **millora del model** (amb l'etiqueta **Help Improve our AI models**) determina si les teves converses es poden fer servir per entrenar models futurs.
+Obre **Settings → Privacy**. L'opció de **millora del model** (amb l'etiqueta **Help Improve our AI models**) determina si les teves converses es poden fer servir per entrenar models futurs. A l'aplicació mòbil: toca el teu nom i després **Settings → Privacy**.
 
 !!! warning "Recomanat per a l'ICCUB"
     Desactiva la millora del model si hi parlaràs de resultats no publicats, dades de col·laboracions, informes de revisió (referee reports) o treballs d'estudiants. Llegeix [Dades i privadesa](data-and-privacy.md) abans de pujar res de sensible.

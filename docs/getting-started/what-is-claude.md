@@ -59,10 +59,10 @@ Pro is not unlimited.
 
 To make it last: start a new chat for each new topic, put files you reuse in a [Project](../using-claude/projects.md) instead of re-uploading them, and keep Opus and high effort for the problems that need them.
 
-If you regularly hit the limits, the **Max** plan offers 5× or 20× more usage at a higher price.
+If you regularly hit the limits, two higher plans exist: **Max** (5× Pro usage) and **Ultra** (10× Pro's weekly usage, with no five-hour limit). Both include Fable up to half of the weekly limit. See the [official plan comparison](https://claude.com/pricing) for current prices.
 
 ## What Pro does not include
 
 - **No contract between UB and Anthropic.** Pro is a personal (consumer) plan. Your data is handled under Anthropic's consumer terms, not an institutional agreement. Read [Data and privacy](data-and-privacy.md).
-- **No API access.** Using Claude from your own programs through the API is billed separately at [platform.claude.com](https://platform.claude.com). (Max and Team plans now include some monthly API credits; Pro does not.)
+- **No API access.** Using Claude from your own programs through the API is billed separately at [platform.claude.com](https://platform.claude.com). (Max, Ultra and Team plans now include some monthly API credits; Pro does not.)
 - **No shared admin.** Projects and chats are yours; you cannot share a Project with colleagues. There is no ICCUB-wide workspace. A group [Team plan](get-claude.md) adds sharing.
