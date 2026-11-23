@@ -4,7 +4,7 @@ Quan Claude produeix alguna cosa substancial (un document, una presentació, un 
 
 ## Tipus d'Artifact
 
-Des de setembre de 2026, els Artifacts són de diversos tipus, i al novembre de 2026 s'hi han afegit Sheets i Whiteboards. No cal que en triïs cap: demana el que vols i Claude tria. També pots començar a partir d'una plantilla a la pestanya **Artifacts**.
+Des de setembre de 2026, els Artifacts són de diversos tipus, i Sheets i Whiteboards (tots dos en beta) són els més nous. No cal que en triïs cap: demana el que vols i Claude tria. També pots començar a partir d'una plantilla a la pestanya **Artifacts**.
 
 | Tipus | Útil per a | Exporta a |
 |---|---|---|

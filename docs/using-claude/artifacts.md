@@ -4,7 +4,7 @@ When Claude produces something substantial (a document, a slide deck, a design, 
 
 ## Kinds of Artifact
 
-Since September 2026, Artifacts come in a few types, and Sheets and Whiteboards were added in November 2026. You don't need to pick one: ask for what you want and Claude chooses. You can also start from a template in the **Artifacts** tab.
+Since September 2026, Artifacts come in a few types, and Sheets and Whiteboards (both in beta) are the newest. You don't need to pick one: ask for what you want and Claude chooses. You can also start from a template in the **Artifacts** tab.
 
 | Type | Good for | Export to |
 |---|---|---|
