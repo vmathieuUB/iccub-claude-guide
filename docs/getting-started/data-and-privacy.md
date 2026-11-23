@@ -11,6 +11,9 @@ Claude Pro is a **consumer** plan. Your chats are covered by Anthropic's [Consum
 
 **Model training is your choice.** The **model improvement** setting (Settings → Privacy, labelled **Help Improve our AI models**) decides whether your chats and Claude Code sessions can be used to train future models. It is in the same place in the web app, the desktop app and the mobile app (tap your name → **Settings → Privacy**). If you turn it off, Anthropic stops using your past and new chats in future training; models already trained are not changed.
 
+!!! note "Don't see this setting?"
+    On a seat in a **Team plan** (for example your group's plan for scientists) there is no such toggle: Settings → Privacy only shows items such as location metadata, shared chats and your feedback. Team plans fall under Anthropic's commercial terms, and Anthropic does not train on them by default.
+
 | Setting | Used for training? | How long Anthropic keeps your chats |
 |---|---|---|
 | **Off** (recommended) | No | Until you delete them. A deleted chat leaves your history at once and Anthropic's servers within 30 days. |

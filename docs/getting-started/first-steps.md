@@ -8,7 +8,7 @@ Go to [claude.ai](https://claude.ai) and sign in with the email your account was
 
 ## 2. Check your privacy settings
 
-Open **Settings → Privacy**. The **model improvement** setting (labelled **Help Improve our AI models**) decides whether your chats can be used to train future models. On the mobile app: tap your name, then **Settings → Privacy**.
+Open **Settings → Privacy**. The **model improvement** setting (labelled **Help Improve our AI models**) decides whether your chats can be used to train future models. On the mobile app: tap your name, then **Settings → Privacy**. On a Team seat you won't find this setting, because Team plans are not used for training by default.
 
 !!! warning "Recommended for ICCUB"
     Turn model improvement off if you will discuss unpublished results, collaboration data, referee reports or student work. Read [Data and privacy](data-and-privacy.md) before uploading anything sensitive.

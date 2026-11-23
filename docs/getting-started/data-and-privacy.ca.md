@@ -11,6 +11,9 @@ Claude Pro és un pla **de consum**. Les teves converses es regeixen per les [Co
 
 **L'entrenament de models depèn de tu.** L'opció de **millora del model** (Settings → Privacy, amb l'etiqueta **Help Improve our AI models**) determina si les teves converses i sessions de Claude Code es poden fer servir per entrenar models futurs. És al mateix lloc a l'aplicació web, a la d'escriptori i a la mòbil (toca el teu nom → **Settings → Privacy**). Si la desactives, Anthropic deixa de fer servir les teves converses passades i noves en entrenaments futurs; els models ja entrenats no canvien.
 
+!!! note "No veus aquesta opció?"
+    En una plaça d'un **pla Team** (per exemple, el pla per a científics del teu grup) no hi ha aquest interruptor: Settings → Privacy només mostra elements com la metadada d'ubicació, els xats compartits i els teus comentaris. Els plans Team es regeixen per les condicions comercials d'Anthropic, i Anthropic no els fa servir per entrenar per defecte.
+
 | Opció | S'utilitza per entrenar? | Quant de temps conserva Anthropic les teves converses |
 |---|---|---|
 | **Desactivada** (recomanat) | No | Fins que les esborres. Una conversa esborrada desapareix de l'historial a l'instant i dels servidors d'Anthropic en un termini de 30 dies. |
